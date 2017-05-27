@@ -31,6 +31,7 @@ sigmaall = [sqrt(2),sqrt(10)];
 tic
 for i = 1:5
     for j = 1:2
+
         p = pall(i)
         sigma = sigmaall(j)
         
@@ -53,7 +54,6 @@ for i = 1:5
         AccuracyGd_ASCG=HGdA.acc;
 %         save(fullfile(outDirName,['Orl_shelter_30_30','_p_',num2str(p),'_sigma_',num2str(sigma),'_acc.mat']),'HGA','HGdA');
         save(fullfile(outDirName,['Orl_shelter_40_40','_p_',num2str(p),'_sigma_',num2str(sigma),'_acc.mat']),'HGA','HGdA');
-
         HGAall(i,j) = AccuracyG_ASCG;
         HGdAall(i,j) = AccuracyGd_ASCG;
     end

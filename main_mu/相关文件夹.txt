@@ -1,0 +1,2 @@
+存放参数遍历三模型ascg准确度数据的文件夹：
+D:\研究生\最优化\Face Recognition\人脸识别数值试验\GNMFO1610\data\new10——6
