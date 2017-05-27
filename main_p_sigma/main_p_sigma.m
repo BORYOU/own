@@ -1,19 +1,17 @@
 clc; clear all
 
-load('Orl_shelter_30_30.mat'); 
+load(fullfile('..','generateW','Orl_shelter_30_30.mat')); 
 data = 'Orl_shelter_30_30';
 
+k = 100; gamma = 1e-8; a = 9;
+
 [M,N] = size(A); % M*N Îª¾ØÕóAµÄÎ¬Êý
-rng('default')
-%randn('state',1);
+% rng('default')
+randn('state',1);
 Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
 
 maxiter =200; tol = 1e-17; timelimit = 1000000;
 fold = 3; 
-
-k = 100;
-gamma = 1e-8;
-a = 9;
 
 outDirName = 'Orl_shelter_30_30_p_2_10_sigma_2_5_10_15_20';
 if exist(outDirName,'dir') ~= 7
@@ -24,11 +22,13 @@ HGAall = zeros(9,5);
 HGdAall = zeros(9,5);
 
 pall = 2:10;
-sigmaall = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)]
+sigmaall = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)];
+
+tic
 for i = 1:9
     for j = 1:5
-        p = pall(i);
-        sigma = sigmaall(j);
+        p = pall(i)
+        sigma = sigmaall(j)
         
         dirName = ['p_',num2str(p),'_sigma_',num2str(sigma)];
         Wfilename = [data,'_p_',num2str(p),'_sigma_',num2str(sigma),'.mat'];
@@ -43,15 +43,16 @@ for i = 1:9
         
         HGd = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
-        HGA = Accuracy(fold,A,Y,HG);
+        HGA = Accuracy(3,A,Y,HG);
         AccuracyG_ASCG=HGA.acc;
-        HGdA = Accuracy(fold,A,Y,HGd);
+        HGdA = Accuracy(3,A,Y,HGd);
         AccuracyGd_ASCG=HGdA.acc;
-        save(fullfile(outDirName,['Orl_shelter_30_30','p_',num2str(p),'_sigma_',num2str(sigma),'_acc.mat']),'HGA','HGdA');
+        save(fullfile(outDirName,['Orl_shelter_30_30','_p_',num2str(p),'_sigma_',num2str(sigma),'_acc.mat']),'HGA','HGdA');
         
-        HGAall(i,j) = HGA;
-        HGdAall(i,j) = HGdA;
+        HGAall(i,j) = AccuracyG_ASCG;
+        HGdAall(i,j) = AccuracyGd_ASCG;
     end
 end
 
 save(fullfile(outDirName,'Orl_shelter_30_30all.mat'),'HGAall','HGdAall');
+toc
