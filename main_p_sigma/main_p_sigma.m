@@ -1,14 +1,14 @@
 clc; clear all
-
-for data = {
-    'Orl_shelter_40_40';
+dataall = {
+    %'Orl_shelter_40_40';
     'Orl_shelter_50_50';
     'Orl_shelter_20_percent_20';
     'YaleB_c';
     'YaleB_c_shelter_10_10';
     'YaleB_c_shelter_10_percent_20';
-}
-data = data{1};
+};
+for dataindex = 1:length(dataall)
+data = dataall{dataindex};
 fprintf('%s\n',data);
 
 load(fullfile('..','generateW',[data,'.mat'])); 
