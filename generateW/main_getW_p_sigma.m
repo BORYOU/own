@@ -1,5 +1,5 @@
 
-for database = {'Y1','Y2'}%{'O1','O2','O3','O4'}
+for database = {'O5'}%{'Y1','Y2'}%{'O1','O2','O3','O4'}
     for p = 2:10
         for sigma = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)]
             outfile = GetW_caideng(database, p, sigma)
