@@ -1,0 +1,43 @@
+% calculate trace for GNMF, GNMFO
+% load file from 'I:\Face Recognition\highperform\12_1\' + data
+
+data = 'orl30new'; Wfile = 'W_cai_sOrl30.mat';
+dirname = fullfile('I:\\','Face Recognition','highperform','12_1',data);
+aAll = [0.1,0.3,0.5,0.7,0.9,3,5,7,9,11];
+
+load(fullfile(dirname, Wfile));
+W1 = W_hk_c; W2 = W_diff_c; N = size(W_hk_c,1);
+DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1;
+
+LaAll = cell(length(aAll),1);
+
+for aIndex = 1:length(aAll)
+a = aAll(alphaIndex);
+W = W1 + a*W2;
+DCol = full(sum(W,2)); D = spdiags(DCol,0,N,N); La = D - W;
+LaAll{aIndex,1} = La;
+end
+
+TraceG = zeros(10,10);  % gamma * k
+TraceGd = zeros(10,10,10);  % gamma * k * alpha
+tic
+for kIndex = 1:10
+    for gammaIndex = 1:10
+        for alphaIndex = 1:10
+            i = 100*(kIndex-1) + 10*(gammaIndex-1) + alphaIndex
+            load(fullfile(dirname,['sORL30allbest',num2str(i),'.mat']));
+            if alphaIndex == 1
+                TraceG(gammaIndex,kIndex) = trace(HG*L*HG');
+            
+            TraceGd(gammaIndex,kIndex,alphaIndex) = trace(HGd*La*HGd');
+            end
+        end
+    end
+end
+toc
+save(['trace_','Face Recognition','highperform','12_1',data],'TraceG','TraceGd');
+
+figure
+hold on
+surf(TraceG,'FaceColor','g');
+surf(max(TraceGd,[],3),'FaceColor','r');
