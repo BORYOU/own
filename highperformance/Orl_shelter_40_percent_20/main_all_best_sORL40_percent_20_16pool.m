@@ -40,7 +40,9 @@ parfor index = 1:1000,
     %randn('state',1);
     Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
     HG = 0; H = 0;
-    
+    fvalH=0;
+	fvalHG=0;
+	fvalHGd=0;
     if rem(allnum,100) == 1,  % 1,101,...1201
         [H, fvalH] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
     end
