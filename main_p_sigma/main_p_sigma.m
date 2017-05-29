@@ -1,6 +1,8 @@
 clc; clear all
 dataall = {
-    %'Orl_shelter_40_40';
+    'Orl_shelter_40_percent_20';
+    'Orl_shelter_40_percent_60'
+%     'Orl_shelter_40_40';
     'Orl_shelter_50_50';
     'Orl_shelter_20_percent_20';
     'YaleB_c';
