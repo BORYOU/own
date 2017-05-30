@@ -1,5 +1,5 @@
 clc; clear all
-load('Orl_shelter_40_percent_60.mat'); load('Orl_shelter_40_percent_60_p_5_sigma_3.873.mat');
+load('YaleB_shelter_10_percent_60.mat'); load('YaleB_shelter_10_percent_60_p_5_sigma_3.873.mat');
 
 parpool(16)
 
@@ -18,7 +18,7 @@ allnumlist = [1:1000,1101:1200,1301:1400,1501:1600];
 parfor index = 1001:1300,
 %for index = 1:1000,
     allnum = allnumlist(index);
-    if exist(['Orl_shelter_40_percent_60allbest',num2str(allnum),'.mat']) == 2
+    if exist(['YaleB_shelter_10_percent_60allbest',num2str(allnum),'.mat'])
         continue
     end
     gammaall = [1e-9, 2e-9, 3e-9, 4e-9, 5e-9, 6e-9, 7e-9, 8e-9, 9e-9,1e-8];
@@ -58,7 +58,7 @@ parfor index = 1001:1300,
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fval = [fvalH,fvalHG,fvalHGd];
-	savepar(['Orl_shelter_40_percent_60allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
+	savepar(['YaleB_shelter_10_percent_60allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
 	
 end
 
