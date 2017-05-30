@@ -1,5 +1,5 @@
 clc; clear all
-load('Orl_shelter_20_percent_20.mat'); load('Orl_shelter_20_percent_20_p_5_sigma_1.4142.mat');
+load('Orl_shelter_40_percent_20.mat'); load('Orl_shelter_40_percent_20_p_5_sigma_3.873.mat');
 
 parpool(16)
 
@@ -56,7 +56,7 @@ parfor index = 1:1000,
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fval = [fvalH,fvalHG,fvalHGd];
-	savepar(['Orl_shelter_20_percent_20allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
+	savepar(['Orl_shelter_40_percent_20allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
 	
 end
 

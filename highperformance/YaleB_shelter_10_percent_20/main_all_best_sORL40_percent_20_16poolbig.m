@@ -1,21 +1,21 @@
 clc; clear all
-load('Orl_shelter_20_percent_20.mat'); load('Orl_shelter_20_percent_20_p_5_sigma_1.4142.mat');
+load('Orl_shelter_40_percent_20.mat'); load('Orl_shelter_40_percent_20_p_5_sigma_3.873.mat');
 
 parpool(16)
 
-[M,N] = size(A); % M*N Îª¾ØÕóAµÄÎ¬Êı
+[M,N] = size(A); % M*N ä¸ºçŸ©é˜µAçš„ç»´æ•°
 W1 = W_hk_c; W2 = W_diff_c;
 
-%³õÊ¼»¯²ÎÊı defult
+%åˆå§‹åŒ–å‚æ•° defult
 maxiter =200; tol = 1e-17; timelimit = 1000000;
-fold = 3; %¾ö¶¨²âÊÔ¸öÌåÊıÁ¿£º×Ü¸öÌåÊı/fold ÏòÏÂÈ¡Õû
-DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %¼ÆËãL
+fold = 3; %å†³å®šæµ‹è¯•ä¸ªä½“æ•°é‡ï¼šæ€»ä¸ªä½“æ•°/fold å‘ä¸‹å–æ•´
+DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %è®¡ç®—L
 
 % k: 50 - 180;
 % i1j1h1,i1j1h2,...,i1j1h10,i1j19h1,...,i1j19h10;i2j1h1,...i2j19h10,...,
 % i13j19h10
-allnumlist = [1:1000];  %,1101:1200,1301:1400,1501:1600];
-parfor index = 1:1000,
+allnumlist = [1:1000,1101:1200,1301:1400,1501:1600];
+parfor index = 1001:1300,
 %for index = 1:1000,
     allnum = allnumlist(index);
     
@@ -36,8 +36,8 @@ parfor index = 1:1000,
     end
     a = all(hh);
 
-    rng('default')
-    %randn('state',1);
+     rng('default')
+%randn('state',1);
     Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
     HG = 0; H = 0;
     fvalH=0;
@@ -51,12 +51,12 @@ parfor index = 1:1000,
         [HG, fvalHG] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,L,gamma,tol,maxiter);
     end
 
-    W = W1 + a*W2;  %×éºÏÈ¨ÖØ¾ØÕó
-    DCol = full(sum(W,2)); D = spdiags(DCol,0,N,N); La = D - W;  %¼ÆËãLa
+    W = W1 + a*W2;  %ç»„åˆæƒé‡çŸ©é˜µ
+    DCol = full(sum(W,2)); D = spdiags(DCol,0,N,N); La = D - W;  %è®¡ç®—La
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fval = [fvalH,fvalHG,fvalHGd];
-	savepar(['Orl_shelter_20_percent_20allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
+	savepar(['Orl_shelter_40_percent_20allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
 	
 end
 

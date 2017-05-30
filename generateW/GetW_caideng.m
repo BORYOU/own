@@ -17,10 +17,18 @@ function outfilename = GetW_caideng(database, nearP, sigma)
         data = 'Orl_shelter_50_50';
     elseif strcmp(database,'O5')
         data = 'Orl_shelter_30_percent_20';
+	elseif strcmp(database,'O6')
+        data = 'Orl_shelter_40_percent_20';
+	elseif strcmp(database,'O7')
+        data = 'Orl_shelter_40_percent_60';
     elseif strcmp(database,'Y1')
         data = 'YaleB_c';
     elseif strcmp(database,'Y2')
         data = 'YaleB_c_shelter_10_percent_20';
+    elseif strcmp(database,'Y3')
+        data = 'YaleB_c_shelter_10_percent_60';
+    elseif strcmp(database,'Y4')
+        data = 'YaleB_c_shelter_10_10';
     end
     
     if strcmp(data(1),'O')
