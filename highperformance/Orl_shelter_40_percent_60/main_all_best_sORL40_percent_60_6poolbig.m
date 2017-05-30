@@ -1,7 +1,7 @@
 clc; clear all
 load('Orl_shelter_40_percent_60.mat'); load('Orl_shelter_40_percent_60_p_5_sigma_3.873.mat');
 
-parpool(16)
+parpool(6)
 
 [M,N] = size(A); % M*N 为矩阵A的维数
 W1 = W_hk_c; W2 = W_diff_c;
