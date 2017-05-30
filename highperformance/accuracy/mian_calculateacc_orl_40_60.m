@@ -6,9 +6,9 @@
 % database = 'Orl_shelter_40_40.mat';  basestr = 'sORL40allbest';
 % database = 'Orl_shelter_50_50.mat';  basestr = 'sORL50allbest';
 % database = 'YaleB_c.mat'          ;  basestr = 'YaleBallbest' ;
-database = '../highperformanceData/Orl_shelter_40_percent_20/Orl_shelter_40_percent_20.mat'  ;  
-basestr = '../highperformanceData/Orl_shelter_40_percent_20/Orl_shelter_40_percent_20allbest' ;
-basestr2 = 'Orl_shelter_40_percent_20allbest';
+database = '../highperformanceData/Orl_shelter_40_percent_60/Orl_shelter_40_percent_60.mat'  ;  
+basestr = '../highperformanceData/Orl_shelter_40_percent_60/Orl_shelter_40_percent_60allbest' ;
+basestr2 = 'Orl_shelter_40_percent_60allbest';
 load(database);
 %{
 input variables: 
