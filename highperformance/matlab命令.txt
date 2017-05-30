@@ -1,0 +1,8 @@
+/software/MATLAB/R2014b/bin/matlab -nodisplay -r main_all_best_sORL40_percent_60_16pool \
+/software/MATLAB/R2014b/bin/matlab -nodisplay -r main_all_best_sORL40_percent_60_16poolbig \
+/software/MATLAB/R2014b/bin/matlab -nodisplay -r main_all_best_sORL40_percent_20_16pool \
+/software/MATLAB/R2014b/bin/matlab -nodisplay -r main_all_best_sORL40_percent_20_16poolbig \
+
+/home/14121553/workspace/GNMFO17_5_29/test_1_cpu
+/home/14121553/workspace/GNMFO17_5_29/Orl_shelter_40_percent_20
+/home/14121553/workspace/GNMFO17_5_29/Orl_shelter_40_percent_60
