@@ -58,7 +58,7 @@ parfor index = 1001:1300,
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fval = [fvalH,fvalHG,fvalHGd];
-	savepar(['Orl_shelter_40_percent_60allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
+	savepar(['YaleB_shelter_10_percent_60allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
 	
 end
 
