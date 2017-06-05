@@ -16,7 +16,11 @@ def createAllPool(directory):
     for mainFile in fs:
         with open(os.path.join(directory, mainFile), 'r') as f:
             txt = f.read()
-        for i in range(1,16):
+        for j in range(1,17):
+            if j == 16:
+                i = 32
+            else:
+                i = j
             outfile = os.path.join(directory, mainFile.replace('16',str(i)))
             if os.path.exists(outfile):
                 continue
