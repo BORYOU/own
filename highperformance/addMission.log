@@ -18,3 +18,328 @@
 [0606 09:22:24] search nodes
 [0606 09:24:00] search nodes
 [0606 15:09:36] search nodes
+[0606 15:33:26] search nodes
+[0606 15:51:33] search nodes
+[0606 15:53:27] search nodes
+[0606 15:54:11] search nodes
+[0606 15:55:25] search nodes
+[0606 15:57:25] search nodes
+[0606 15:57:56] search nodes
+[0606 15:58:31] search nodes
+[0606 15:59:43] search nodes
+[0606 16:01:13] search nodes
+[0606 16:02:05] search nodes
+[0606 16:03:10] search nodes
+[0606 16:03:52] search nodes
+[0606 16:05:20] search nodes
+[0606 16:06:58] search nodes
+[0606 16:08:45] search nodes
+[0606 16:10:16] search nodes
+[0606 16:12:05] search nodes
+[0606 16:13:04] search nodes
+[0606 16:15:03] search nodes
+[0606 16:16:22] search nodes
+[0606 16:18:10] search nodes
+[0606 16:19:56] search nodes
+[0606 16:21:47] search nodes
+[0606 16:23:42] search nodes
+[0606 16:25:25] search nodes
+[0606 16:26:52] search nodes
+[0606 16:28:13] search nodes
+[0606 16:28:54] search nodes
+[0606 16:29:42] search nodes
+[0606 16:30:36] search nodes
+[0606 16:32:09] search nodes
+[0606 16:33:03] search nodes
+[0606 16:34:58] search nodes
+[0606 16:35:31] search nodes
+[0606 16:36:14] search nodes
+[0606 16:37:03] search nodes
+[0606 16:37:59] search nodes
+[0606 16:38:43] search nodes
+[0606 16:40:04] search nodes
+[0606 16:41:39] search nodes
+[0606 16:42:12] search nodes
+[0606 16:42:51] search nodes
+[0606 16:44:12] search nodes
+[0606 16:45:06] search nodes
+[0606 16:46:34] search nodes
+[0606 16:48:11] search nodes
+[0606 16:50:05] search nodes
+[0606 16:50:43] search nodes
+[0606 16:52:31] search nodes
+[0606 16:53:47] search nodes
+[0606 16:55:17] search nodes
+[0606 16:56:24] search nodes
+[0606 16:58:16] search nodes
+[0606 16:59:40] search nodes
+[0606 17:01:29] search nodes
+[0606 17:03:18] search nodes
+[0606 17:05:00] search nodes
+[0606 17:06:10] search nodes
+[0606 17:07:09] search nodes
+[0606 17:07:42] search nodes
+[0606 17:08:18] search nodes
+[0606 17:10:13] search nodes
+[0606 17:11:10] search nodes
+[0606 17:12:34] search nodes
+[0606 17:13:48] search nodes
+[0606 17:15:16] search nodes
+[0606 19:47:57] HTTPConnectionPool(host='10.1.61.1', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03AD56F0>: Failed to establish a new connection: [Errno 10051] ',))
+[0606 19:47:57] search nodes
+[0606 19:47:59] HTTPSConnectionPool(host='hpc.bjtu.edu.cn', port=443): Max retries exceeded with url: /static/dynamic/SiteJob/GetNodeList?_search=false&nd=149674967776&rows=10&page=1&sidx=&sord=asc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x03A74FF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+[0606 19:47:59] search nodes
+[0606 19:49:04] search nodes
+[0606 19:50:20] search nodes
+[0606 19:51:30] search nodes
+[0606 19:52:55] search nodes
+[0606 19:54:49] search nodes
+[0606 19:55:33] search nodes
+[0606 19:56:03] search nodes
+[0606 19:57:51] search nodes
+[0606 19:59:28] search nodes
+[0606 20:00:35] search nodes
+[0606 20:02:14] search nodes
+[0606 20:03:39] search nodes
+[0606 20:04:50] search nodes
+[0606 20:05:31] search nodes
+[0606 20:06:43] search nodes
+[0606 20:08:30] search nodes
+[0606 20:10:22] search nodes
+[0606 20:10:56] search nodes
+[0606 20:12:51] search nodes
+[0606 20:14:49] search nodes
+[0606 20:15:53] search nodes
+[0606 20:17:36] Login
+[0606 20:17:36] search nodes
+[0606 20:17:36] total node nums: 6
+[0606 20:17:37] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_6pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 6  matlab
+[0606 20:17:37] total node nums: 14
+[0606 20:17:37] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_8pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 8  matlab
+[0606 20:17:37] pause for 117s
+[0606 20:19:34] search nodes
+[0606 20:19:34] total node nums: 20
+[0606 20:19:35] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_6pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 6  matlab
+[0606 20:19:35] total node nums: 22
+[0606 20:19:36] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_2pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 2  matlab
+[0606 20:19:36] pause for 67s
+[0606 20:20:43] search nodes
+[0606 20:20:43] pause for 84s
+[0606 20:22:07] search nodes
+[0606 20:22:07] pause for 51s
+[0606 20:22:58] search nodes
+[0606 20:22:59] pause for 98s
+[0606 20:24:37] search nodes
+[0606 20:24:37] pause for 34s
+[0606 20:25:11] search nodes
+[0606 20:25:11] pause for 113s
+[0606 20:27:04] search nodes
+[0606 20:27:05] pause for 116s
+[0606 20:29:01] search nodes
+[0606 20:29:01] pause for 65s
+[0606 20:30:06] search nodes
+[0606 20:30:06] pause for 85s
+[0606 20:31:31] search nodes
+[0606 20:31:32] pause for 92s
+[0606 20:33:04] search nodes
+[0606 20:33:04] pause for 97s
+[0606 20:34:41] search nodes
+[0606 20:34:41] pause for 70s
+[0606 20:35:51] search nodes
+[0606 20:35:51] pause for 72s
+[0606 20:37:03] search nodes
+[0606 20:37:04] pause for 68s
+[0606 20:38:12] search nodes
+[0606 20:38:12] pause for 83s
+[0606 20:39:35] search nodes
+[0606 20:39:35] pause for 108s
+[0606 20:41:23] search nodes
+[0606 20:41:24] pause for 91s
+[0606 20:42:55] search nodes
+[0606 20:42:55] pause for 115s
+[0606 20:44:50] search nodes
+[0606 20:44:50] pause for 79s
+[0606 20:46:09] search nodes
+[0606 20:46:09] pause for 102s
+[0606 20:47:51] search nodes
+[0606 20:47:52] pause for 82s
+[0606 20:49:14] search nodes
+[0606 20:49:14] pause for 30s
+[0606 20:49:44] search nodes
+[0606 20:49:44] pause for 85s
+[0606 20:51:09] search nodes
+[0606 20:51:10] pause for 83s
+[0606 20:52:33] search nodes
+[0606 20:52:33] pause for 65s
+[0606 20:53:38] search nodes
+[0606 20:53:38] pause for 91s
+[0606 20:55:09] search nodes
+[0606 20:55:09] pause for 53s
+[0606 20:56:02] search nodes
+[0606 20:56:03] pause for 71s
+[0606 20:57:14] search nodes
+[0606 20:57:14] pause for 58s
+[0606 20:58:12] search nodes
+[0606 20:58:12] pause for 39s
+[0606 20:58:51] search nodes
+[0606 20:58:52] pause for 68s
+[0606 21:00:00] search nodes
+[0606 21:00:00] pause for 116s
+[0606 21:01:56] search nodes
+[0606 21:01:56] pause for 116s
+[0606 21:03:52] search nodes
+[0606 21:04:04] HTTPSConnectionPool(host='hpc.bjtu.edu.cn', port=443): Max retries exceeded with url: /static/dynamic/SiteJob/GetNodeList?_search=false&nd=149675423297&rows=10&page=1&sidx=&sord=asc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x03F27150>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+[0606 21:04:04] search nodes
+[0606 21:04:17] HTTPSConnectionPool(host='hpc.bjtu.edu.cn', port=443): Max retries exceeded with url: /static/dynamic/SiteJob/GetNodeList?_search=false&nd=149675424499&rows=10&page=1&sidx=&sord=asc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x03ED2390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+[0606 21:04:17] search nodes
+[0606 21:04:58] total node nums: 1
+[0606 21:04:59] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 1  matlab
+[0606 21:04:59] pause for 35s
+[0606 21:05:34] search nodes
+[0606 21:05:55] HTTPSConnectionPool(host='hpc.bjtu.edu.cn', port=443): Max retries exceeded with url: /static/dynamic/SiteJob/GetNodeList?_search=false&nd=149675433449&rows=10&page=1&sidx=&sord=asc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x03ED2350>: Failed to establish a new connection: [Errno 10060] ',))
+[0606 21:05:55] search nodes
+[0606 21:06:07] HTTPSConnectionPool(host='hpc.bjtu.edu.cn', port=443): Max retries exceeded with url: /static/dynamic/SiteJob/GetNodeList?_search=false&nd=149675435552&rows=10&page=1&sidx=&sord=asc (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x03F27750>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+[0606 21:06:07] search nodes
+[0606 21:06:07] pause for 49s
+[0606 21:06:56] search nodes
+[0606 21:06:57] pause for 48s
+[0606 21:07:45] search nodes
+[0606 21:07:45] pause for 102s
+[0606 21:09:27] search nodes
+[0606 21:09:27] pause for 116s
+[0606 21:11:23] search nodes
+[0606 21:11:24] pause for 115s
+[0606 21:13:19] search nodes
+[0606 21:13:19] pause for 63s
+[0606 21:14:22] search nodes
+[0606 21:14:22] pause for 90s
+[0606 21:15:52] search nodes
+[0606 21:15:52] pause for 59s
+[0606 21:16:51] search nodes
+[0606 21:16:52] pause for 70s
+[0606 21:18:02] search nodes
+[0606 21:18:02] pause for 46s
+[0606 21:18:48] search nodes
+[0606 21:18:48] pause for 59s
+[0606 21:19:47] search nodes
+[0606 21:19:48] pause for 45s
+[0606 21:20:33] search nodes
+[0606 21:20:33] pause for 95s
+[0606 21:22:08] search nodes
+[0606 21:22:08] pause for 36s
+[0606 21:22:44] search nodes
+[0606 21:22:45] pause for 98s
+[0606 21:24:23] search nodes
+[0606 21:24:23] pause for 77s
+[0606 21:25:40] search nodes
+[0606 21:25:40] pause for 55s
+[0606 21:26:35] search nodes
+[0606 21:26:35] pause for 104s
+[0606 21:28:19] search nodes
+[0606 21:28:20] pause for 30s
+[0606 21:28:50] search nodes
+[0606 21:28:50] pause for 95s
+[0606 21:30:25] search nodes
+[0606 21:30:25] pause for 120s
+[0606 21:32:25] search nodes
+[0606 21:32:26] pause for 102s
+[0606 21:34:08] search nodes
+[0606 21:34:08] pause for 61s
+[0606 21:35:09] search nodes
+[0606 21:35:09] pause for 57s
+[0606 21:36:06] search nodes
+[0606 21:36:07] pause for 98s
+[0606 21:37:45] search nodes
+[0606 21:37:45] pause for 96s
+[0606 21:39:21] search nodes
+[0606 21:39:21] pause for 116s
+[0606 21:41:17] search nodes
+[0606 21:41:17] pause for 46s
+[0606 21:42:03] search nodes
+[0606 21:42:04] pause for 46s
+[0606 21:42:50] search nodes
+[0606 21:42:50] pause for 103s
+[0606 21:44:33] search nodes
+[0606 21:44:33] pause for 38s
+[0606 21:45:11] search nodes
+[0606 21:45:12] pause for 57s
+[0606 21:46:09] search nodes
+[0606 21:46:09] pause for 43s
+[0606 21:46:52] search nodes
+[0606 21:46:52] pause for 45s
+[0606 21:47:37] search nodes
+[0606 21:47:37] pause for 76s
+[0606 21:48:53] search nodes
+[0606 21:48:54] pause for 30s
+[0606 21:49:24] search nodes
+[0606 21:49:24] pause for 47s
+[0606 21:50:11] search nodes
+[0606 21:50:11] pause for 31s
+[0606 21:50:42] search nodes
+[0606 21:50:43] pause for 38s
+[0606 21:51:21] search nodes
+[0606 21:51:21] pause for 105s
+[0606 21:53:06] search nodes
+[0606 21:53:06] pause for 30s
+[0606 21:53:36] search nodes
+[0606 21:53:37] pause for 73s
+[0606 21:54:50] search nodes
+[0606 21:54:50] pause for 31s
+[0606 21:55:21] search nodes
+[0606 21:55:25] pause for 51s
+[0606 21:56:16] search nodes
+[0606 21:56:17] pause for 114s
+[0606 21:58:11] search nodes
+[0606 21:58:12] total node nums: 1
+[0606 21:58:12] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 1  matlab
+[0606 21:58:12] pause for 56s
+[0606 21:59:08] search nodes
+[0606 21:59:11] pause for 120s
+[0606 22:01:11] search nodes
+[0606 22:01:11] pause for 79s
+[0606 22:02:30] search nodes
+[0606 22:02:30] pause for 64s
+[0606 22:03:34] search nodes
+[0606 22:03:35] pause for 112s
+[0606 22:05:27] search nodes
+[0606 22:05:27] pause for 99s
+[0606 22:07:06] search nodes
+[0606 22:07:06] pause for 31s
+[0606 22:07:37] search nodes
+[0606 22:07:38] pause for 80s
+[0606 22:08:58] search nodes
+[0606 22:08:58] pause for 78s
+[0606 22:10:16] search nodes
+[0606 22:10:16] pause for 47s
+[0606 22:11:03] search nodes
+[0606 22:11:04] pause for 66s
+[0606 22:12:10] search nodes
+[0606 22:12:10] pause for 70s
+[0606 22:13:20] search nodes
+[0606 22:13:20] pause for 101s
+[0606 22:15:01] search nodes
+[0606 22:15:01] pause for 93s
+[0606 22:16:34] search nodes
+[0606 22:16:35] pause for 31s
+[0606 22:17:06] search nodes
+[0606 22:17:06] pause for 31s
+[0606 22:17:37] search nodes
+[0606 22:17:37] pause for 33s
