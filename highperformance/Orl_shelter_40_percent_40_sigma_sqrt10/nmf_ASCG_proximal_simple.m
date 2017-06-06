@@ -1,4 +1,4 @@
-function [H, fval] = nmf_ASCG_proximal_simple(V,Winit,Hinit,tol,maxiter)
+function [H, W, fval] = nmf_ASCG_proximal_simple(V,Winit,Hinit,tol,maxiter)
 % The new active set method where the UA is chosen to be the conjugate
 %       gradient method(ASCG)
 %

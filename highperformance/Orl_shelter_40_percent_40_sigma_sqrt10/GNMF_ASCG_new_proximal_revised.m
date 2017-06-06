@@ -1,4 +1,4 @@
-function [H, fval] = GNMF_ASCG_new_proximal_revised(V,Winit,Hinit,L,lambda,tol,maxiter)
+function [H, W, fval] = GNMF_ASCG_new_proximal_revised(V,Winit,Hinit,L,lambda,tol,maxiter)
 
 % W,H: output solution
 % Winit,Hinit: initial solution
