@@ -31,6 +31,8 @@ function outfilename = GetW_caideng(database, nearP, sigma)
         data = 'YaleB_c_shelter_10_10';
     elseif strcmp(database,'N1')
         data = 'NewR25';
+    elseif strcmp(database,'L')
+        data = 'LFW_64';
     end
     
     if strcmp(data(1),'O')
@@ -39,6 +41,9 @@ function outfilename = GetW_caideng(database, nearP, sigma)
     elseif strcmp(data(1),'Y')
         len_row = 32;
         len_colunm = 32;
+    elseif strcmp(data(1),'L')
+        len_row = 64;
+        len_colunm = 64;
     end
     
     load([data, '.mat'])

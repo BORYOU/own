@@ -21,7 +21,7 @@ parfor index = 1:1000,
     if exist(['YaleB_shelter_10_percent_60allbest',num2str(allnum),'.mat'])
         continue
     end
-    gammaall = [1e-9, 2e-9, 3e-9, 4e-9, 5e-9, 6e-9, 7e-9, 8e-9, 9e-9,1e-8];
+    gammaall = [1e-8, 2e-8, 3e-8, 4e-8, 5e-8, 6e-8, 7e-8, 8e-8, 9e-8,1e-7];
     all = [0.1,0.3,0.5,0.7,0.9,3,5,7,9,11];
     
     ii = floor((allnum-1)/100)+1;

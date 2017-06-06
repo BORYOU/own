@@ -29,5 +29,5 @@ def createAllPool(directory):
                 fo.write(txt2)
 
 if __name__ == '__main__':
-    
+    # python createAllPool.py directory
     createAllPool(sys.argv[1])

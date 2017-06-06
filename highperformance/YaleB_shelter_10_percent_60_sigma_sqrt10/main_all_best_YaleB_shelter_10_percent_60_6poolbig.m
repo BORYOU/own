@@ -1,7 +1,7 @@
 clc; clear all
 load('YaleB_c_shelter_10_percent_60.mat'); load('YaleB_c_shelter_10_percent_60_p_5_sigma_3.1623.mat');
 
-parpool(6)
+parpool(16)
 
 [M,N] = size(A); % M*N 为矩阵A的维数
 W1 = W_hk_c; W2 = W_diff_c;
@@ -14,14 +14,14 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
 % k: 50 - 180;
 % i1j1h1,i1j1h2,...,i1j1h10,i1j19h1,...,i1j19h10;i2j1h1,...i2j19h10,...,
 % i13j19h10
-allnumlist = [1:1000,1101:1200,1301:1400,1501:1600];
+allnumlist = [1:1000,2701:2800,4701:4800,6701:6800];
 parfor index = 1001:1300,
 %for index = 1:1000,
     allnum = allnumlist(index);
     if exist(['YaleB_shelter_10_percent_60allbest',num2str(allnum),'.mat'])
         continue
     end
-    gammaall = [1e-9, 2e-9, 3e-9, 4e-9, 5e-9, 6e-9, 7e-9, 8e-9, 9e-9,1e-8];
+    gammaall = [1e-8, 2e-8, 3e-8, 4e-8, 5e-8, 6e-8, 7e-8, 8e-8, 9e-8,1e-7];
     all = [0.1,0.3,0.5,0.7,0.9,3,5,7,9,11];
     
     ii = floor((allnum-1)/100)+1;
