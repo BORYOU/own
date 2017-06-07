@@ -178,6 +178,7 @@ def start(jession, jobnamebase, pattern):
             logger.info('total node nums: {}'.format(jobTotalNodeNum))
             jobname = jobnamebase.format(freeNodeNum)
             submitJob(jession, jobname, pattern, freeNodeNum, nodeType)
+        if freeNodeNum == -1: continue
         sleeptime = random.randint(30,120)
         logger.info('pause for {}s'.format(sleeptime))
         time.sleep(sleeptime)
