@@ -1,4 +1,4 @@
-function [H, fval] = GNMF_ASCG_new_proximal_revised(V,Winit,Hinit,L,lambda,tol,maxiter)
+function [H, W, ASCG] = GNMF_ASCG_new_proximal_revised(V,Winit,Hinit,L,lambda,tol,maxiter)
 
 % W,H: output solution
 % Winit,Hinit: initial solution
@@ -15,6 +15,7 @@ function [H, fval] = GNMF_ASCG_new_proximal_revised(V,Winit,Hinit,L,lambda,tol,m
 W = Winit; H = Hinit;
 initt = cputime;
 ASCG.V_fval=[];
+ASCG.T = [];
 L = lambda * L;
 
 gradW = W*(H*H') - V*H'; gradH = (W'*W)*H - W'*V  +  H * L;
@@ -47,6 +48,7 @@ for iter=1:maxiter,
     
     fval=0.5*(norm(V-W*H,'fro'))^2 + 0.5*trace(H*sparse(L)*H');
     ASCG.V_fval=[ASCG.V_fval;fval];
+    ASCG.T = [ASCG.T, cputime-init];
     fvalcri = abs(ASCG.V_fval(iter)-ASCG.V_fval(iter+1))/ASCG.V_fval(iter);
     
 end
