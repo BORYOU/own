@@ -2598,3 +2598,1328 @@ pattern: /home/14121553/workspace/GNMFO17_5_29/Orl_shelter_40_percent_40_sigma_s
 [0606 22:50:21] search nodes
 [0606 22:53:40] pause for 33s
 >>>>>>> 6506f9375a7df2647b4a8dfecc969f6f117f7f60
+[0608 08:01:22] Login
+[0608 08:01:23] search nodes
+[0608 08:01:23] pause for 103s
+[0608 08:02:50] [Errno 4] Interrupted function call
+[0608 08:02:50] search nodes
+[0608 08:02:58] Login
+[0608 08:02:59] search nodes
+[0608 08:02:59] pause for 120s
+[0608 08:04:59] search nodes
+[0608 08:04:59] pause for 68s
+[0608 08:06:07] search nodes
+[0608 08:06:08] pause for 63s
+[0608 08:07:11] search nodes
+[0608 08:07:11] pause for 117s
+[0608 08:09:08] search nodes
+[0608 08:09:08] pause for 102s
+[0608 08:10:50] search nodes
+[0608 08:10:50] pause for 37s
+[0608 08:11:27] search nodes
+[0608 08:11:27] pause for 115s
+[0608 08:13:22] search nodes
+[0608 08:13:23] pause for 80s
+[0608 08:14:43] search nodes
+[0608 08:14:43] pause for 94s
+[0608 08:16:17] search nodes
+[0608 08:16:17] pause for 120s
+[0608 08:18:17] search nodes
+[0608 08:18:18] pause for 54s
+[0608 08:19:12] search nodes
+[0608 08:19:12] pause for 33s
+[0608 08:19:45] search nodes
+[0608 08:19:45] pause for 96s
+[0608 08:21:21] search nodes
+[0608 08:21:21] pause for 72s
+[0608 08:22:33] search nodes
+[0608 08:22:34] pause for 88s
+[0608 08:24:02] search nodes
+[0608 08:24:02] pause for 98s
+[0608 08:25:40] search nodes
+[0608 08:25:40] pause for 104s
+[0608 08:27:24] search nodes
+[0608 08:27:25] pause for 111s
+[0608 08:29:16] search nodes
+[0608 08:29:16] pause for 31s
+[0608 08:29:47] search nodes
+[0608 08:29:47] pause for 90s
+[0608 08:31:17] search nodes
+[0608 08:31:17] pause for 32s
+[0608 08:31:49] search nodes
+[0608 08:31:50] pause for 30s
+[0608 08:32:20] search nodes
+[0608 08:32:20] pause for 66s
+[0608 08:33:26] search nodes
+[0608 08:33:26] pause for 79s
+[0608 08:34:45] search nodes
+[0608 08:34:45] pause for 78s
+[0608 08:36:03] search nodes
+[0608 08:36:03] pause for 82s
+[0608 08:37:25] search nodes
+[0608 08:37:26] pause for 112s
+[0608 08:39:18] search nodes
+[0608 08:39:18] pause for 74s
+[0608 08:40:32] search nodes
+[0608 08:40:32] pause for 64s
+[0608 08:41:36] search nodes
+[0608 08:41:37] pause for 104s
+[0608 08:43:21] search nodes
+[0608 08:43:21] pause for 43s
+[0608 08:44:04] search nodes
+[0608 08:44:04] pause for 82s
+[0608 08:45:26] search nodes
+[0608 08:45:26] pause for 31s
+[0608 08:45:57] search nodes
+[0608 08:45:58] pause for 105s
+[0608 08:47:43] search nodes
+[0608 08:47:43] pause for 85s
+[0608 08:49:08] search nodes
+[0608 08:49:08] pause for 32s
+[0608 08:49:40] search nodes
+[0608 08:49:41] pause for 56s
+[0608 08:50:37] search nodes
+[0608 08:50:37] pause for 86s
+[0608 08:52:03] search nodes
+[0608 08:52:03] pause for 100s
+[0608 08:53:43] search nodes
+[0608 08:53:43] pause for 35s
+[0608 08:54:18] search nodes
+[0608 08:54:19] pause for 68s
+[0608 08:55:27] search nodes
+[0608 08:55:27] pause for 48s
+[0608 08:56:15] search nodes
+[0608 08:56:15] pause for 68s
+[0608 08:57:23] search nodes
+[0608 08:57:23] pause for 56s
+[0608 08:58:19] search nodes
+[0608 08:58:20] pause for 67s
+[0608 08:59:27] search nodes
+[0608 08:59:27] pause for 116s
+[0608 09:01:23] search nodes
+[0608 09:01:23] pause for 65s
+[0608 09:02:28] search nodes
+[0608 09:02:29] pause for 102s
+[0608 09:04:11] search nodes
+[0608 09:04:11] pause for 94s
+[0608 09:05:45] search nodes
+[0608 09:05:45] pause for 91s
+[0608 09:07:16] search nodes
+[0608 09:07:16] pause for 31s
+[0608 09:07:47] search nodes
+[0608 09:07:48] pause for 101s
+[0608 09:09:29] search nodes
+[0608 09:09:29] pause for 76s
+[0608 09:10:45] search nodes
+[0608 09:10:45] pause for 96s
+[0608 09:12:21] search nodes
+[0608 09:12:21] pause for 90s
+[0608 09:13:51] search nodes
+[0608 09:13:52] pause for 90s
+[0608 09:15:22] search nodes
+[0608 09:15:22] pause for 94s
+[0608 09:16:56] search nodes
+[0608 09:16:56] pause for 106s
+[0608 09:18:42] search nodes
+[0608 09:18:42] pause for 109s
+[0608 09:20:31] search nodes
+[0608 09:20:32] pause for 81s
+[0608 09:21:53] search nodes
+[0608 09:21:53] pause for 80s
+[0608 09:23:13] search nodes
+[0608 09:23:13] pause for 87s
+[0608 09:24:40] search nodes
+[0608 09:24:40] pause for 119s
+[0608 09:26:39] search nodes
+[0608 09:26:40] pause for 45s
+[0608 09:27:25] search nodes
+[0608 09:27:25] pause for 63s
+[0608 09:28:28] search nodes
+[0608 09:28:28] pause for 77s
+[0608 09:29:45] search nodes
+[0608 09:29:45] pause for 39s
+[0608 09:30:24] search nodes
+[0608 09:30:25] pause for 116s
+[0608 09:32:21] search nodes
+[0608 09:32:21] pause for 35s
+[0608 09:32:56] search nodes
+[0608 09:32:56] pause for 117s
+[0608 09:34:53] search nodes
+[0608 09:34:54] pause for 92s
+[0608 09:36:26] search nodes
+[0608 09:36:26] pause for 39s
+[0608 09:37:05] search nodes
+[0608 09:37:05] pause for 47s
+[0608 09:37:52] search nodes
+[0608 09:37:52] pause for 42s
+[0608 09:38:34] search nodes
+[0608 09:38:35] pause for 98s
+[0608 09:40:13] search nodes
+[0608 09:40:13] pause for 120s
+[0608 09:42:13] search nodes
+[0608 09:42:13] total node nums: 1
+[0608 09:42:14] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_1poolbig, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 1  matlab
+[0608 09:42:14] pause for 41s
+[0608 09:42:55] search nodes
+[0608 09:42:55] pause for 67s
+[0608 09:44:02] search nodes
+[0608 09:44:02] pause for 102s
+[0608 09:45:44] search nodes
+[0608 09:45:44] pause for 41s
+[0608 09:46:25] search nodes
+[0608 09:46:26] pause for 117s
+[0608 09:48:23] search nodes
+[0608 09:48:23] pause for 88s
+[0608 09:49:51] search nodes
+[0608 09:49:51] pause for 86s
+[0608 09:51:17] search nodes
+[0608 09:51:17] pause for 80s
+[0608 09:52:37] search nodes
+[0608 09:52:38] pause for 97s
+[0608 09:54:15] search nodes
+[0608 09:54:15] pause for 48s
+[0608 09:55:03] search nodes
+[0608 09:55:24] ('Connection aborted.', error(10060, ''))
+[0608 09:55:24] search nodes
+[0608 09:55:24] pause for 40s
+[0608 09:56:04] search nodes
+[0608 09:56:05] pause for 110s
+[0608 09:57:55] search nodes
+[0608 09:57:55] pause for 34s
+[0608 09:58:29] search nodes
+[0608 09:58:29] pause for 44s
+[0608 09:59:13] search nodes
+[0608 09:59:13] pause for 97s
+[0608 10:00:50] search nodes
+[0608 10:00:51] pause for 78s
+[0608 10:02:09] search nodes
+[0608 10:02:09] pause for 102s
+[0608 10:03:51] search nodes
+[0608 10:03:51] pause for 84s
+[0608 10:05:15] search nodes
+[0608 10:05:15] pause for 112s
+[0608 10:07:07] search nodes
+[0608 10:07:07] pause for 108s
+[0608 10:08:55] search nodes
+[0608 10:08:55] pause for 43s
+[0608 10:09:38] search nodes
+[0608 10:09:38] pause for 82s
+[0608 10:11:00] search nodes
+[0608 10:11:01] pause for 80s
+[0608 10:12:21] search nodes
+[0608 10:12:21] pause for 69s
+[0608 10:13:30] search nodes
+[0608 10:13:30] pause for 91s
+[0608 10:15:01] search nodes
+[0608 10:15:01] pause for 104s
+[0608 10:16:45] search nodes
+[0608 10:16:45] pause for 118s
+[0608 10:18:43] search nodes
+[0608 10:18:43] pause for 118s
+[0608 10:20:41] search nodes
+[0608 10:20:41] pause for 63s
+[0608 10:21:44] search nodes
+[0608 10:21:44] pause for 65s
+[0608 10:22:49] search nodes
+[0608 10:22:49] pause for 94s
+[0608 10:24:23] search nodes
+[0608 10:24:24] pause for 102s
+[0608 10:26:06] search nodes
+[0608 10:26:06] pause for 95s
+[0608 10:27:41] search nodes
+[0608 10:27:41] pause for 98s
+[0608 10:29:19] search nodes
+[0608 10:29:19] pause for 79s
+[0608 10:30:38] search nodes
+[0608 10:30:38] pause for 32s
+[0608 10:31:10] search nodes
+[0608 10:31:10] pause for 79s
+[0608 10:32:29] search nodes
+[0608 10:32:29] pause for 120s
+[0608 10:34:29] search nodes
+[0608 10:34:29] pause for 109s
+[0608 10:36:18] search nodes
+[0608 10:36:18] pause for 31s
+[0608 10:36:49] search nodes
+[0608 10:36:49] pause for 69s
+[0608 10:37:58] search nodes
+[0608 10:37:59] pause for 97s
+[0608 10:39:36] search nodes
+[0608 10:39:36] pause for 66s
+[0608 10:40:42] search nodes
+[0608 10:40:42] pause for 47s
+[0608 10:41:29] search nodes
+[0608 10:41:29] pause for 113s
+[0608 10:43:22] search nodes
+[0608 10:43:22] pause for 83s
+[0608 10:44:45] search nodes
+[0608 10:44:45] pause for 99s
+[0608 10:46:24] search nodes
+[0608 10:46:24] pause for 70s
+[0608 10:47:34] search nodes
+[0608 10:47:34] pause for 40s
+[0608 10:48:14] search nodes
+[0608 10:48:14] pause for 109s
+[0608 10:50:03] search nodes
+[0608 10:50:04] pause for 99s
+[0608 10:51:43] search nodes
+[0608 10:51:43] pause for 31s
+[0608 10:52:14] search nodes
+[0608 10:52:14] pause for 50s
+[0608 10:53:04] search nodes
+[0608 10:53:04] pause for 85s
+[0608 10:54:29] search nodes
+[0608 10:54:29] pause for 44s
+[0608 10:55:13] search nodes
+[0608 10:55:13] pause for 72s
+[0608 10:56:25] search nodes
+[0608 10:56:25] pause for 85s
+[0608 10:57:50] search nodes
+[0608 10:57:50] pause for 109s
+[0608 10:59:39] search nodes
+[0608 10:59:39] pause for 100s
+[0608 11:01:19] search nodes
+[0608 11:01:19] pause for 78s
+[0608 11:02:37] search nodes
+[0608 11:02:37] pause for 78s
+[0608 11:03:55] search nodes
+[0608 11:03:56] pause for 97s
+[0608 11:05:33] search nodes
+[0608 11:05:33] pause for 118s
+[0608 11:07:31] search nodes
+[0608 11:07:31] pause for 55s
+[0608 11:08:26] search nodes
+[0608 11:08:26] pause for 99s
+[0608 11:10:05] search nodes
+[0608 11:10:05] pause for 45s
+[0608 11:10:50] search nodes
+[0608 11:10:50] pause for 103s
+[0608 11:12:33] search nodes
+[0608 11:12:33] pause for 77s
+[0608 11:13:50] search nodes
+[0608 11:13:50] pause for 42s
+[0608 11:14:32] search nodes
+[0608 11:14:32] pause for 108s
+[0608 11:16:20] search nodes
+[0608 11:16:20] pause for 59s
+[0608 11:17:19] search nodes
+[0608 11:17:20] pause for 88s
+[0608 11:18:48] search nodes
+[0608 11:18:48] pause for 36s
+[0608 11:19:24] search nodes
+[0608 11:19:24] pause for 85s
+[0608 11:20:49] search nodes
+[0608 11:20:49] pause for 48s
+[0608 11:21:37] search nodes
+[0608 11:21:37] pause for 73s
+[0608 11:22:50] search nodes
+[0608 11:22:50] pause for 53s
+[0608 11:23:43] search nodes
+[0608 11:23:43] pause for 80s
+[0608 11:25:03] search nodes
+[0608 11:25:03] pause for 102s
+[0608 11:26:45] search nodes
+[0608 11:26:45] pause for 60s
+[0608 11:27:45] search nodes
+[0608 11:27:46] pause for 32s
+[0608 11:28:18] search nodes
+[0608 11:28:18] pause for 83s
+[0608 11:29:41] search nodes
+[0608 11:29:41] pause for 54s
+[0608 11:30:35] search nodes
+[0608 11:30:35] pause for 82s
+[0608 11:31:57] search nodes
+[0608 11:31:57] pause for 30s
+[0608 11:32:27] search nodes
+[0608 11:32:27] pause for 99s
+[0608 11:34:06] search nodes
+[0608 11:34:06] pause for 120s
+[0608 11:36:06] search nodes
+[0608 11:36:06] pause for 105s
+[0608 11:37:51] search nodes
+[0608 11:37:51] pause for 56s
+[0608 11:38:47] search nodes
+[0608 11:38:47] pause for 100s
+[0608 11:40:27] search nodes
+[0608 11:40:27] pause for 81s
+[0608 11:41:48] search nodes
+[0608 11:41:49] pause for 98s
+[0608 11:43:27] search nodes
+[0608 11:43:27] pause for 62s
+[0608 11:44:29] search nodes
+[0608 11:44:29] pause for 91s
+[0608 11:46:00] search nodes
+[0608 11:46:00] pause for 81s
+[0608 11:47:21] search nodes
+[0608 11:47:21] pause for 59s
+[0608 11:48:20] search nodes
+[0608 11:48:20] pause for 94s
+[0608 11:49:54] search nodes
+[0608 11:49:54] pause for 41s
+[0608 11:50:35] search nodes
+[0608 11:50:35] pause for 39s
+[0608 11:51:14] search nodes
+[0608 11:51:14] pause for 58s
+[0608 11:52:12] search nodes
+[0608 11:52:12] pause for 68s
+[0608 11:53:20] search nodes
+[0608 11:53:20] pause for 53s
+[0608 11:54:13] search nodes
+[0608 11:54:13] pause for 92s
+[0608 11:55:45] search nodes
+[0608 11:55:46] pause for 93s
+[0608 11:57:19] search nodes
+[0608 11:57:19] pause for 42s
+[0608 11:58:01] search nodes
+[0608 11:58:01] pause for 114s
+[0608 11:59:55] search nodes
+[0608 11:59:55] pause for 91s
+[0608 12:01:26] search nodes
+[0608 12:01:26] pause for 110s
+[0608 12:03:16] search nodes
+[0608 12:03:16] pause for 112s
+[0608 12:05:08] search nodes
+[0608 12:05:08] pause for 39s
+[0608 12:05:47] search nodes
+[0608 12:05:47] pause for 92s
+[0608 12:07:19] search nodes
+[0608 12:07:20] pause for 104s
+[0608 12:09:04] search nodes
+[0608 12:09:04] pause for 101s
+[0608 12:10:45] search nodes
+[0608 12:10:45] pause for 59s
+[0608 12:11:44] search nodes
+[0608 12:11:44] pause for 82s
+[0608 12:13:06] search nodes
+[0608 12:13:06] pause for 42s
+[0608 12:13:48] search nodes
+[0608 12:13:48] pause for 60s
+[0608 12:14:48] search nodes
+[0608 12:14:48] pause for 39s
+[0608 12:15:27] search nodes
+[0608 12:15:27] pause for 106s
+[0608 12:17:13] search nodes
+[0608 12:17:13] pause for 53s
+[0608 12:18:06] search nodes
+[0608 12:18:07] pause for 68s
+[0608 12:19:15] search nodes
+[0608 12:19:15] pause for 86s
+[0608 12:20:41] search nodes
+[0608 12:20:41] pause for 105s
+[0608 12:22:26] search nodes
+[0608 12:22:26] pause for 68s
+[0608 12:23:34] search nodes
+[0608 12:23:34] pause for 96s
+[0608 12:25:10] search nodes
+[0608 12:25:10] pause for 91s
+[0608 12:26:41] search nodes
+[0608 12:26:41] pause for 35s
+[0608 12:27:16] search nodes
+[0608 12:27:16] pause for 71s
+[0608 12:28:27] search nodes
+[0608 12:28:27] pause for 58s
+[0608 12:29:25] search nodes
+[0608 12:29:25] pause for 58s
+[0608 12:30:23] search nodes
+[0608 12:30:24] pause for 104s
+[0608 12:32:08] search nodes
+[0608 12:32:08] pause for 77s
+[0608 12:33:25] search nodes
+[0608 12:33:25] pause for 74s
+[0608 12:34:39] search nodes
+[0608 12:34:39] pause for 45s
+[0608 12:35:24] search nodes
+[0608 12:35:24] pause for 117s
+[0608 12:37:21] search nodes
+[0608 12:37:21] pause for 100s
+[0608 12:39:01] search nodes
+[0608 12:39:01] pause for 42s
+[0608 12:39:43] search nodes
+[0608 12:39:43] pause for 43s
+[0608 12:40:26] search nodes
+[0608 12:40:26] pause for 113s
+[0608 12:42:19] search nodes
+[0608 12:42:19] pause for 82s
+[0608 12:43:41] search nodes
+[0608 12:43:42] pause for 117s
+[0608 12:45:39] search nodes
+[0608 12:45:39] pause for 80s
+[0608 12:46:59] search nodes
+[0608 12:46:59] pause for 35s
+[0608 12:47:34] search nodes
+[0608 12:47:34] pause for 52s
+[0608 12:48:26] search nodes
+[0608 12:48:26] pause for 99s
+[0608 12:50:05] search nodes
+[0608 12:50:05] pause for 109s
+[0608 12:51:54] search nodes
+[0608 12:51:54] pause for 79s
+[0608 12:53:13] search nodes
+[0608 12:53:13] pause for 79s
+[0608 12:54:32] search nodes
+[0608 12:54:32] pause for 85s
+[0608 12:55:57] search nodes
+[0608 12:55:57] pause for 67s
+[0608 12:57:04] search nodes
+[0608 12:57:04] pause for 116s
+[0608 12:59:00] search nodes
+[0608 12:59:00] pause for 91s
+[0608 13:00:31] search nodes
+[0608 13:00:31] pause for 56s
+[0608 13:01:27] search nodes
+[0608 13:01:28] pause for 102s
+[0608 13:03:10] search nodes
+[0608 13:03:10] pause for 79s
+[0608 13:04:29] search nodes
+[0608 13:04:29] pause for 81s
+[0608 13:05:50] search nodes
+[0608 13:05:50] pause for 62s
+[0608 13:06:52] search nodes
+[0608 13:06:52] pause for 73s
+[0608 13:08:05] search nodes
+[0608 13:08:05] pause for 114s
+[0608 13:09:59] search nodes
+[0608 13:09:59] pause for 65s
+[0608 13:11:04] search nodes
+[0608 13:11:04] pause for 92s
+[0608 13:12:36] search nodes
+[0608 13:12:36] pause for 62s
+[0608 13:13:38] search nodes
+[0608 13:13:38] pause for 102s
+[0608 13:15:20] search nodes
+[0608 13:15:20] pause for 35s
+[0608 13:15:55] search nodes
+[0608 13:15:56] pause for 102s
+[0608 13:19:25] Login
+[0608 13:19:27] search nodes
+[0608 13:19:27] total node nums: 1
+[0608 13:19:27] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_1poolbig, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 1  matlab
+[0608 13:19:27] pause for 53s
+[0608 13:20:20] search nodes
+[0608 13:20:21] pause for 69s
+[0608 13:21:30] search nodes
+[0608 13:21:30] pause for 46s
+[0608 13:22:16] search nodes
+[0608 13:22:17] pause for 58s
+[0608 13:23:15] search nodes
+[0608 13:23:15] pause for 109s
+[0608 13:25:04] search nodes
+[0608 13:25:04] pause for 98s
+[0608 13:26:42] search nodes
+[0608 13:26:43] pause for 40s
+[0608 13:27:23] search nodes
+[0608 13:27:23] pause for 93s
+[0608 13:28:56] search nodes
+[0608 13:28:56] pause for 55s
+[0608 13:29:51] search nodes
+[0608 13:29:52] pause for 40s
+[0608 13:30:32] search nodes
+[0608 13:30:32] pause for 84s
+[0608 13:31:56] search nodes
+[0608 13:31:56] pause for 109s
+[0608 13:33:46] search nodes
+[0608 13:33:46] pause for 37s
+[0608 13:34:23] search nodes
+[0608 13:34:23] pause for 118s
+[0608 13:36:21] search nodes
+[0608 13:36:21] pause for 72s
+[0608 13:37:33] search nodes
+[0608 13:37:34] pause for 41s
+[0608 13:38:15] search nodes
+[0608 13:38:15] pause for 39s
+[0608 13:38:54] search nodes
+[0608 13:38:54] pause for 39s
+[0608 13:39:33] search nodes
+[0608 13:39:33] pause for 101s
+[0608 13:41:14] search nodes
+[0608 13:41:15] pause for 118s
+[0608 13:43:13] search nodes
+[0608 13:43:13] pause for 83s
+[0608 13:44:36] search nodes
+[0608 13:44:36] pause for 103s
+[0608 13:46:19] search nodes
+[0608 13:46:19] pause for 39s
+[0608 13:46:58] search nodes
+[0608 13:46:59] pause for 90s
+[0608 13:48:29] search nodes
+[0608 13:48:29] pause for 73s
+[0608 13:49:42] search nodes
+[0608 13:49:43] pause for 104s
+[0608 13:51:27] search nodes
+[0608 13:51:27] pause for 41s
+[0608 13:52:08] search nodes
+[0608 13:52:08] pause for 81s
+[0608 13:53:29] search nodes
+[0608 13:53:29] pause for 100s
+[0608 13:55:09] search nodes
+[0608 13:55:10] pause for 62s
+[0608 13:56:12] search nodes
+[0608 13:56:13] pause for 38s
+[0608 13:56:51] search nodes
+[0608 13:56:51] pause for 116s
+[0608 13:58:47] search nodes
+[0608 13:58:47] pause for 117s
+[0608 14:00:44] search nodes
+[0608 14:00:44] pause for 59s
+[0608 14:01:43] search nodes
+[0608 14:01:44] pause for 110s
+[0608 14:03:34] search nodes
+[0608 14:03:34] pause for 106s
+[0608 14:05:20] search nodes
+[0608 14:05:20] pause for 67s
+[0608 14:06:27] search nodes
+[0608 14:06:27] pause for 97s
+[0608 14:08:04] search nodes
+[0608 14:08:05] pause for 39s
+[0608 14:08:44] search nodes
+[0608 14:08:44] pause for 85s
+[0608 14:10:09] search nodes
+[0608 14:10:09] pause for 49s
+[0608 14:10:58] search nodes
+[0608 14:10:58] pause for 111s
+[0608 14:12:49] search nodes
+[0608 14:12:50] pause for 35s
+[0608 14:13:25] search nodes
+[0608 14:13:25] pause for 86s
+[0608 14:14:51] search nodes
+[0608 14:14:51] pause for 36s
+[0608 14:15:27] search nodes
+[0608 14:15:28] pause for 70s
+[0608 14:16:38] search nodes
+[0608 14:16:38] pause for 62s
+[0608 14:17:40] search nodes
+[0608 14:17:40] pause for 118s
+[0608 14:19:38] search nodes
+[0608 14:19:39] pause for 104s
+[0608 14:21:23] search nodes
+[0608 14:21:23] pause for 100s
+[0608 14:23:03] search nodes
+[0608 14:23:03] pause for 59s
+[0608 14:24:02] search nodes
+[0608 14:24:03] pause for 83s
+[0608 14:25:26] search nodes
+[0608 14:25:26] pause for 98s
+[0608 14:27:04] search nodes
+[0608 14:27:04] pause for 50s
+[0608 14:27:54] search nodes
+[0608 14:27:54] pause for 61s
+[0608 14:28:55] search nodes
+[0608 14:28:56] pause for 80s
+[0608 14:30:16] search nodes
+[0608 14:30:16] pause for 110s
+[0608 14:32:06] search nodes
+[0608 14:32:06] pause for 66s
+[0608 14:33:12] search nodes
+[0608 14:33:13] pause for 67s
+[0608 14:34:20] search nodes
+[0608 14:34:20] pause for 88s
+[0608 14:35:48] search nodes
+[0608 14:35:48] pause for 50s
+[0608 14:36:38] search nodes
+[0608 14:36:39] pause for 113s
+[0608 14:38:32] search nodes
+[0608 14:38:32] pause for 111s
+[0608 14:40:23] search nodes
+[0608 14:40:23] pause for 50s
+[0608 14:41:13] search nodes
+[0608 14:41:14] pause for 94s
+[0608 14:42:48] search nodes
+[0608 14:42:48] pause for 94s
+[0608 14:44:22] search nodes
+[0608 14:44:22] pause for 61s
+[0608 14:45:23] search nodes
+[0608 14:45:24] pause for 119s
+[0608 14:47:23] search nodes
+[0608 14:47:23] pause for 66s
+[0608 14:48:29] search nodes
+[0608 14:48:29] pause for 78s
+[0608 14:49:47] search nodes
+[0608 14:49:47] pause for 70s
+[0608 14:50:57] search nodes
+[0608 14:50:58] pause for 43s
+[0608 14:51:41] search nodes
+[0608 14:51:41] pause for 40s
+[0608 14:52:21] search nodes
+[0608 14:52:21] pause for 90s
+[0608 14:53:51] search nodes
+[0608 14:53:52] pause for 106s
+[0608 14:55:38] search nodes
+[0608 14:55:38] pause for 50s
+[0608 14:56:28] search nodes
+[0608 14:56:28] pause for 80s
+[0608 14:57:48] search nodes
+[0608 14:57:49] pause for 101s
+[0608 14:59:30] search nodes
+[0608 14:59:30] pause for 40s
+[0608 15:00:10] search nodes
+[0608 15:00:10] pause for 45s
+[0608 15:00:55] search nodes
+[0608 15:00:56] pause for 112s
+[0608 15:02:48] search nodes
+[0608 15:02:48] pause for 79s
+[0608 15:04:07] search nodes
+[0608 15:04:07] pause for 113s
+[0608 15:06:00] search nodes
+[0608 15:06:00] pause for 61s
+[0608 15:07:01] search nodes
+[0608 15:07:02] pause for 116s
+[0608 15:08:58] search nodes
+[0608 15:08:58] pause for 56s
+[0608 15:09:54] search nodes
+[0608 15:09:54] pause for 77s
+[0608 15:11:11] search nodes
+[0608 15:11:11] total node nums: 17
+[0608 15:11:12] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_16poolbig, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 16  matlab
+[0608 15:11:12] pause for 49s
+[0608 15:12:01] search nodes
+[0608 15:12:01] pause for 74s
+[0608 15:13:15] search nodes
+[0608 15:13:15] pause for 98s
+[0608 15:14:53] search nodes
+[0608 15:14:53] pause for 74s
+[0608 15:16:07] search nodes
+[0608 15:16:08] pause for 101s
+[0608 15:17:49] search nodes
+[0608 15:17:49] pause for 97s
+[0608 15:19:26] search nodes
+[0608 15:19:26] pause for 32s
+[0608 15:19:58] search nodes
+[0608 15:19:59] pause for 40s
+[0608 15:20:39] search nodes
+[0608 15:20:39] pause for 78s
+[0608 15:21:57] search nodes
+[0608 15:21:57] pause for 69s
+[0608 15:23:06] search nodes
+[0608 15:23:06] pause for 106s
+[0608 15:24:52] search nodes
+[0608 15:24:52] pause for 92s
+[0608 15:26:24] search nodes
+[0608 15:26:24] pause for 87s
+[0608 15:27:51] search nodes
+[0608 15:27:51] pause for 90s
+[0608 15:29:21] search nodes
+[0608 15:29:21] pause for 38s
+[0608 15:30:00] search nodes
+[0608 15:30:00] pause for 36s
+[0608 15:30:36] search nodes
+[0608 15:30:36] pause for 31s
+[0608 15:31:07] search nodes
+[0608 15:31:07] pause for 101s
+[0608 15:32:48] search nodes
+[0608 15:32:48] pause for 113s
+[0608 15:34:41] search nodes
+[0608 15:34:41] pause for 44s
+[0608 15:35:25] search nodes
+[0608 15:35:25] pause for 43s
+[0608 15:36:08] search nodes
+[0608 15:36:08] pause for 85s
+[0608 15:37:33] search nodes
+[0608 15:37:33] pause for 91s
+[0608 15:39:04] search nodes
+[0608 15:39:05] pause for 60s
+[0608 15:40:05] search nodes
+[0608 15:40:05] pause for 95s
+[0608 15:41:40] search nodes
+[0608 15:41:40] pause for 76s
+[0608 15:42:56] search nodes
+[0608 15:42:56] pause for 56s
+[0608 15:43:52] search nodes
+[0608 15:43:52] pause for 57s
+[0608 15:44:49] search nodes
+[0608 15:44:49] pause for 106s
+[0608 15:46:35] search nodes
+[0608 15:46:35] pause for 32s
+[0608 15:47:07] search nodes
+[0608 15:47:07] pause for 30s
+[0608 15:47:37] search nodes
+[0608 15:47:37] pause for 106s
+[0608 15:49:23] search nodes
+[0608 15:49:24] pause for 93s
+[0608 15:50:57] search nodes
+[0608 15:50:57] pause for 61s
+[0608 15:51:58] search nodes
+[0608 15:51:58] pause for 35s
+[0608 15:52:33] search nodes
+[0608 15:52:33] pause for 82s
+[0608 15:53:55] search nodes
+[0608 15:53:55] pause for 46s
+[0608 15:54:41] search nodes
+[0608 15:54:41] pause for 109s
+[0608 15:56:30] search nodes
+[0608 15:56:30] pause for 72s
+[0608 15:57:42] search nodes
+[0608 15:57:42] pause for 110s
+[0608 15:59:32] search nodes
+[0608 15:59:32] pause for 78s
+[0608 16:00:50] search nodes
+[0608 16:00:51] pause for 89s
+[0608 16:02:20] search nodes
+[0608 16:02:20] pause for 53s
+[0608 16:03:13] search nodes
+[0608 16:03:13] pause for 46s
+[0608 16:03:59] search nodes
+[0608 16:03:59] pause for 76s
+[0608 16:05:15] search nodes
+[0608 16:05:15] pause for 81s
+[0608 16:06:36] search nodes
+[0608 16:06:36] pause for 65s
+[0608 16:07:41] search nodes
+[0608 16:07:41] pause for 45s
+[0608 16:08:26] search nodes
+[0608 16:08:27] pause for 99s
+[0608 16:10:06] search nodes
+[0608 16:10:06] pause for 35s
+[0608 16:10:41] search nodes
+[0608 16:10:41] pause for 59s
+[0608 16:11:40] search nodes
+[0608 16:11:40] pause for 105s
+[0608 16:13:25] search nodes
+[0608 16:13:25] pause for 106s
+[0608 16:15:11] search nodes
+[0608 16:15:11] pause for 50s
+[0608 16:16:01] search nodes
+[0608 16:16:01] pause for 72s
+[0608 16:17:13] search nodes
+[0608 16:17:13] pause for 53s
+[0608 16:18:06] search nodes
+[0608 16:18:07] pause for 64s
+[0608 16:19:11] search nodes
+[0608 16:19:11] pause for 51s
+[0608 16:20:02] search nodes
+[0608 16:20:02] pause for 50s
+[0608 16:20:52] search nodes
+[0608 16:20:52] pause for 54s
+[0608 16:21:46] search nodes
+[0608 16:21:46] pause for 35s
+[0608 16:22:21] search nodes
+[0608 16:22:21] pause for 51s
+[0608 16:23:12] search nodes
+[0608 16:23:13] pause for 37s
+[0608 16:23:50] search nodes
+[0608 16:23:50] pause for 86s
+[0608 16:25:16] search nodes
+[0608 16:25:16] pause for 32s
+[0608 16:25:48] search nodes
+[0608 16:25:48] pause for 110s
+[0608 16:27:38] search nodes
+[0608 16:27:47] pause for 39s
+[0608 16:28:26] search nodes
+[0608 16:28:26] pause for 117s
+[0608 16:30:23] search nodes
+[0608 16:30:23] pause for 91s
+[0608 16:31:54] search nodes
+[0608 16:31:54] pause for 69s
+[0608 16:33:03] search nodes
+[0608 16:33:03] pause for 88s
+[0608 16:34:31] search nodes
+[0608 16:34:31] pause for 51s
+[0608 16:35:22] search nodes
+[0608 16:35:22] pause for 36s
+[0608 16:35:58] search nodes
+[0608 16:35:58] pause for 75s
+[0608 16:37:13] search nodes
+[0608 16:37:13] pause for 81s
+[0608 16:38:34] search nodes
+[0608 16:38:35] pause for 38s
+[0608 16:39:13] search nodes
+[0608 16:39:13] pause for 93s
+[0608 16:40:46] search nodes
+[0608 16:40:46] pause for 32s
+[0608 16:41:18] search nodes
+[0608 16:41:18] pause for 75s
+[0608 16:42:33] search nodes
+[0608 16:42:33] pause for 52s
+[0608 16:43:25] search nodes
+[0608 16:43:25] pause for 54s
+[0608 16:44:19] search nodes
+[0608 16:44:19] pause for 47s
+[0608 16:45:06] search nodes
+[0608 16:45:06] pause for 99s
+[0608 16:46:45] search nodes
+[0608 16:46:45] pause for 50s
+[0608 16:47:35] search nodes
+[0608 16:47:35] pause for 44s
+[0608 16:48:19] search nodes
+[0608 16:48:19] pause for 59s
+[0608 16:49:18] search nodes
+[0608 16:49:19] pause for 60s
+[0608 16:50:19] search nodes
+[0608 16:50:19] pause for 82s
+[0608 16:51:41] search nodes
+[0608 16:51:41] pause for 47s
+[0608 16:52:28] search nodes
+[0608 16:52:28] pause for 55s
+[0608 16:53:23] search nodes
+[0608 16:53:23] pause for 67s
+[0608 16:54:30] search nodes
+[0608 16:54:30] pause for 74s
+[0608 16:55:44] search nodes
+[0608 16:55:44] pause for 103s
+[0608 16:57:27] search nodes
+[0608 16:57:27] pause for 68s
+[0608 16:58:35] search nodes
+[0608 16:58:35] pause for 75s
+[0608 16:59:50] search nodes
+[0608 16:59:51] pause for 68s
+[0608 17:00:59] search nodes
+[0608 17:00:59] pause for 50s
+[0608 17:01:49] search nodes
+[0608 17:01:49] pause for 36s
+[0608 17:02:25] search nodes
+[0608 17:02:25] pause for 75s
+[0608 17:03:40] search nodes
+[0608 17:03:40] pause for 87s
+[0608 17:05:07] search nodes
+[0608 17:05:07] pause for 102s
+[0608 17:06:49] search nodes
+[0608 17:06:49] pause for 86s
+[0608 17:08:15] search nodes
+[0608 17:08:15] pause for 42s
+[0608 17:08:57] search nodes
+[0608 17:08:57] pause for 117s
+[0608 17:10:54] search nodes
+[0608 17:10:54] pause for 89s
+[0608 17:11:01] [Errno 4] Interrupted function call
+[0608 17:11:01] search nodes
+[0608 17:12:03] Login
+[0608 17:12:03] search nodes
+[0608 17:12:04] total node nums: 6
+[0608 17:12:04] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_20_6poolbig, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_20_sigma_sqrt10,
+ 6  matlab
+[0608 17:12:04] pause for 85s
+[0608 17:13:29] search nodes
+[0608 17:13:29] pause for 99s
+[0608 17:15:08] search nodes
+[0608 17:15:09] pause for 59s
+[0608 17:16:08] search nodes
+[0608 17:16:08] pause for 69s
+[0608 17:17:17] search nodes
+[0608 17:17:17] pause for 71s
+[0608 17:18:28] search nodes
+[0608 17:18:28] pause for 61s
+[0608 17:19:29] search nodes
+[0608 17:19:30] pause for 58s
+[0608 17:20:28] search nodes
+[0608 17:20:28] pause for 106s
+[0608 17:22:14] search nodes
+[0608 17:22:14] pause for 101s
+[0608 17:23:55] search nodes
+[0608 17:23:55] pause for 91s
+[0608 17:25:26] search nodes
+[0608 17:25:27] pause for 62s
+[0608 17:26:29] search nodes
+[0608 17:26:29] pause for 36s
+[0608 17:27:05] search nodes
+[0608 17:27:05] pause for 106s
+[0608 17:28:51] search nodes
+[0608 17:28:51] pause for 91s
+[0608 17:30:22] search nodes
+[0608 17:30:23] pause for 86s
+[0608 17:31:49] search nodes
+[0608 17:31:49] pause for 47s
+[0608 17:32:36] search nodes
+[0608 17:32:36] pause for 63s
+[0608 17:33:39] search nodes
+[0608 17:33:39] pause for 120s
+[0608 17:35:39] search nodes
+[0608 17:35:40] pause for 106s
+[0608 17:37:26] search nodes
+[0608 17:37:26] pause for 116s
+[0608 17:39:22] search nodes
+[0608 17:39:22] pause for 83s
+[0608 17:40:45] search nodes
+[0608 17:40:45] pause for 87s
+[0608 17:42:12] search nodes
+[0608 17:42:13] pause for 81s
+[0608 17:43:34] search nodes
+[0608 17:43:34] pause for 60s
+[0608 17:44:34] search nodes
+[0608 17:44:34] pause for 47s
+[0608 17:45:21] search nodes
+[0608 17:45:22] pause for 79s
+[0608 17:46:41] search nodes
+[0608 17:46:41] pause for 58s
+[0608 17:47:39] search nodes
+[0608 17:47:39] pause for 82s
+[0608 17:49:01] search nodes
+[0608 17:49:02] pause for 85s
+[0608 17:50:27] search nodes
+[0608 17:50:27] pause for 44s
+[0608 17:51:11] search nodes
+[0608 17:51:11] pause for 100s
+[0608 17:52:51] search nodes
+[0608 17:52:52] pause for 89s
+[0608 17:54:21] search nodes
+[0608 17:54:21] pause for 93s
+[0608 17:55:54] search nodes
+[0608 17:55:54] pause for 109s
+[0608 17:57:43] search nodes
+[0608 17:57:44] pause for 60s
+[0608 17:58:44] search nodes
+[0608 17:58:44] pause for 53s
+[0608 17:59:37] search nodes
+[0608 17:59:37] pause for 43s
+[0608 18:00:20] search nodes
+[0608 18:00:20] pause for 93s
+[0608 18:01:53] search nodes
+[0608 18:01:54] pause for 68s
+[0608 18:03:02] search nodes
+[0608 18:03:02] pause for 34s
+[0608 18:03:36] search nodes
+[0608 18:03:36] pause for 102s
+[0608 18:05:18] search nodes
+[0608 18:05:18] pause for 104s
+[0608 18:07:02] search nodes
+[0608 18:07:03] pause for 62s
+[0608 18:08:05] search nodes
+[0608 18:08:05] pause for 37s
+[0608 18:08:42] search nodes
+[0608 18:08:42] pause for 47s
+[0608 18:09:29] search nodes
+[0608 18:09:29] pause for 71s
+[0608 18:10:40] search nodes
+[0608 18:10:41] pause for 73s
+[0608 18:11:54] search nodes
+[0608 18:11:54] pause for 48s
+[0608 18:12:42] search nodes
+[0608 18:12:42] pause for 61s
+[0608 18:13:43] search nodes
+[0608 18:13:44] pause for 93s
+[0608 18:15:17] search nodes
+[0608 18:15:17] pause for 77s
+[0608 18:16:34] search nodes
+[0608 18:16:34] pause for 98s
+[0608 18:18:12] search nodes
+[0608 18:18:12] pause for 77s
+[0608 18:19:29] search nodes
+[0608 18:19:30] pause for 109s
+[0608 18:21:19] search nodes
+[0608 18:21:19] pause for 57s
+[0608 18:22:16] search nodes
+[0608 18:22:16] pause for 113s
+[0608 18:24:09] search nodes
+[0608 18:24:09] pause for 96s
+[0608 18:25:45] search nodes
+[0608 18:25:46] pause for 114s
+[0608 18:27:40] search nodes
+[0608 18:27:40] pause for 118s
+[0608 18:29:38] search nodes
+[0608 18:29:38] pause for 89s
+[0608 18:31:07] search nodes
+[0608 18:31:07] pause for 33s
+[0608 18:31:40] search nodes
+[0608 18:31:41] pause for 30s
+[0608 18:32:11] search nodes
+[0608 18:32:11] pause for 34s
+[0608 18:32:45] search nodes
+[0608 18:32:45] pause for 37s
+[0608 18:33:22] search nodes
+[0608 18:33:22] pause for 67s
+[0608 18:34:30] search nodes
+[0608 18:34:30] pause for 67s
+[0608 18:35:37] search nodes
+[0608 18:35:37] pause for 100s
+[0608 18:37:17] search nodes
+[0608 18:37:17] pause for 98s
+[0608 18:38:55] search nodes
+[0608 18:38:56] pause for 114s
+[0608 18:40:50] search nodes
+[0608 18:40:50] pause for 52s
+[0608 18:41:42] search nodes
+[0608 18:41:42] pause for 59s
+[0608 18:42:41] search nodes
+[0608 18:42:41] pause for 117s
+[0608 18:44:38] search nodes
+[0608 18:44:39] pause for 51s
+[0608 18:45:30] search nodes
+[0608 18:45:30] pause for 57s
+[0608 18:46:27] search nodes
+[0608 18:46:27] pause for 76s
+[0608 18:47:43] search nodes
+[0608 18:47:44] pause for 58s
+[0608 18:48:42] search nodes
+[0608 18:48:42] pause for 66s
+[0608 18:49:48] search nodes
+[0608 18:49:48] pause for 40s
+[0608 18:50:28] search nodes
+[0608 18:50:28] pause for 50s
+[0608 18:51:19] search nodes
+[0608 18:51:19] pause for 72s
+[0608 18:52:31] search nodes
+[0608 18:52:31] pause for 113s
+[0608 18:54:24] search nodes
+[0608 18:54:24] pause for 120s
+[0608 18:56:24] search nodes
+[0608 18:56:25] pause for 70s
+[0608 18:57:35] search nodes
+[0608 18:57:35] pause for 105s
+[0608 18:59:20] search nodes
+[0608 18:59:20] pause for 31s
+[0608 18:59:51] search nodes
+[0608 18:59:51] pause for 40s
+[0608 19:00:31] search nodes
+[0608 19:00:32] pause for 74s
+[0608 19:01:46] search nodes
+[0608 19:01:46] pause for 90s
+[0608 19:03:16] search nodes
+[0608 19:03:16] pause for 100s
+[0608 19:04:56] search nodes
+[0608 19:04:56] pause for 33s
+[0608 19:05:29] search nodes
+[0608 19:05:30] pause for 92s
+[0608 19:07:02] search nodes
+[0608 19:07:02] pause for 112s
+[0608 19:08:54] search nodes
+[0608 19:08:54] pause for 59s
+[0608 19:09:53] search nodes
+[0608 19:09:54] pause for 108s
+[0608 19:11:42] search nodes
+[0608 19:11:42] pause for 60s
+[0608 19:12:42] search nodes
+[0608 19:12:42] pause for 70s
+[0608 19:13:52] search nodes
+[0608 19:13:52] pause for 97s
+[0608 19:15:29] search nodes
+[0608 19:15:29] pause for 65s
+[0608 19:16:34] search nodes
+[0608 19:16:34] pause for 31s
+[0608 19:17:05] search nodes
+[0608 19:17:05] pause for 57s
+[0608 19:18:02] search nodes
+[0608 19:18:02] pause for 40s
+[0608 19:18:42] search nodes
+[0608 19:18:42] pause for 108s
+[0608 19:20:30] search nodes
+[0608 19:20:30] pause for 55s
+[0608 19:21:25] search nodes
+[0608 19:21:26] pause for 58s
+[0608 19:22:24] search nodes
+[0608 19:22:24] pause for 95s
+[0608 19:23:59] search nodes
+[0608 19:23:59] pause for 84s
+[0608 19:25:23] search nodes
+[0608 19:25:23] pause for 86s
+[0608 19:26:49] search nodes
+[0608 19:26:49] pause for 117s
+[0608 19:28:46] search nodes
+[0608 19:28:46] pause for 86s
+[0608 19:30:12] search nodes
+[0608 19:30:12] pause for 86s
+[0608 19:31:38] search nodes
+[0608 19:31:38] pause for 42s
+[0608 19:32:20] search nodes
+[0608 19:32:20] pause for 79s
+[0608 19:33:39] search nodes
+[0608 19:33:39] pause for 86s
+[0608 19:35:05] search nodes
+[0608 19:35:06] pause for 39s
+[0608 19:35:45] search nodes
+[0608 19:35:45] pause for 42s
+[0608 19:36:27] search nodes
+[0608 19:36:27] pause for 31s
+[0608 19:36:58] search nodes
+[0608 19:36:58] pause for 61s
+[0608 19:37:59] search nodes
+[0608 19:37:59] pause for 91s
+[0608 19:39:30] search nodes
+[0608 19:39:30] pause for 91s
+[0608 19:41:01] search nodes
+[0608 19:41:01] pause for 41s
+[0608 19:41:42] search nodes
+[0608 19:41:42] pause for 110s
+[0608 19:43:32] search nodes
+[0608 19:43:32] pause for 30s
+[0608 19:44:02] search nodes
+[0608 19:44:02] pause for 107s
+[0608 19:45:49] search nodes
+[0608 19:45:49] pause for 55s
+[0608 19:46:44] search nodes
+[0608 19:46:44] pause for 79s
+[0608 19:48:03] search nodes
+[0608 19:48:04] pause for 65s
+[0608 19:49:09] search nodes
+[0608 19:49:09] pause for 65s
+[0608 19:50:14] search nodes
+[0608 19:50:14] pause for 51s
+[0608 19:51:05] search nodes
+[0608 19:51:05] pause for 109s
+[0608 19:52:54] search nodes
+[0608 19:52:54] pause for 89s
+[0608 19:54:23] search nodes
+[0608 19:54:23] pause for 36s
+[0608 19:54:59] search nodes
+[0608 19:54:59] pause for 90s
+[0608 19:56:29] search nodes
+[0608 19:56:29] pause for 119s
+[0608 19:58:28] search nodes
+[0608 19:58:28] pause for 96s
+[0608 20:00:04] search nodes
+[0608 20:00:04] pause for 108s
+[0608 20:01:52] search nodes
+[0608 20:01:52] pause for 105s
+[0608 20:03:38] search nodes
+[0608 20:03:38] pause for 61s
+[0608 20:04:39] search nodes
+[0608 20:04:39] pause for 112s
+[0608 20:06:31] search nodes
+[0608 20:06:31] pause for 80s
+[0608 20:07:51] search nodes
+[0608 20:07:51] pause for 59s
+[0608 20:08:50] search nodes
+[0608 20:08:50] pause for 111s
+[0608 20:10:41] search nodes
+[0608 20:10:41] pause for 100s
+[0608 20:12:21] search nodes
+[0608 20:12:21] pause for 59s
+[0608 20:13:20] search nodes
+[0608 20:13:20] pause for 109s
+[0608 20:15:09] search nodes
+[0608 20:15:09] pause for 119s
+[0608 20:17:08] search nodes
+[0608 20:17:08] pause for 98s
+[0608 20:18:46] search nodes
+[0608 20:18:47] pause for 52s
+[0608 20:19:39] search nodes
+[0608 20:19:39] pause for 100s
+[0608 20:21:19] search nodes
+[0608 20:21:19] pause for 81s
+[0608 20:22:40] search nodes
+[0608 20:22:40] pause for 34s
+[0608 20:23:14] search nodes
+[0608 20:23:14] pause for 30s
+[0608 20:23:44] search nodes
+[0608 20:23:44] pause for 62s
+[0608 20:24:46] search nodes
+[0608 20:24:46] pause for 52s
+[0608 20:25:38] search nodes
+[0608 20:25:38] pause for 63s
+[0609 22:08:29] Login
+[0609 22:08:29] search nodes
+[0609 22:08:29] total node nums: 1
+[0609 22:08:30] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1poolbig, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:08:30] total node nums: 7
+[0609 22:08:30] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_6poolbig, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 6  matlab
+[0609 22:08:30] pause for 115s
+[0609 22:08:58] [Errno 4] Interrupted function call
+[0609 22:08:58] search nodes
+[0609 22:09:00] Login
+[0609 22:09:00] search nodes
+[0609 22:09:00] total node nums: 1
+[0609 22:09:01] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:09:01] total node nums: 6
+[0609 22:09:01] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_5pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 5  matlab
+[0609 22:09:01] pause for 43s
+[0609 22:09:44] search nodes
+[0609 22:09:44] total node nums: 7
+[0609 22:09:44] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:09:44] total node nums: 12
+[0609 22:09:45] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_5pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 5  matlab
+[0609 22:09:45] pause for 56s
+[0609 22:10:41] search nodes
+[0609 22:10:41] total node nums: 13
+[0609 22:10:41] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:10:41] total node nums: 17
+[0609 22:10:42] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_4pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 4  matlab
+[0609 22:10:42] pause for 107s
+[0609 22:12:29] search nodes
+[0609 22:12:29] total node nums: 18
+[0609 22:12:29] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:12:29] total node nums: 21
+[0609 22:12:29] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_3pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 3  matlab
+[0609 22:12:29] pause for 109s
+[0609 22:14:18] search nodes
+[0609 22:14:19] total node nums: 22
+[0609 22:14:19] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:14:19] total node nums: 24
+[0609 22:14:19] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_2pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 2  matlab
+[0609 22:14:19] pause for 87s
+[0609 22:15:46] search nodes
+[0609 22:15:47] total node nums: 25
+[0609 22:15:47] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:15:47] total node nums: 26
+[0609 22:15:47] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:15:47] pause for 49s
+[0609 22:16:36] search nodes
+[0609 22:16:36] pause for 59s
+[0609 22:17:35] search nodes
+[0609 22:17:36] pause for 91s
+[0609 22:19:07] search nodes
+[0609 22:19:07] pause for 39s
+[0609 22:19:46] search nodes
+[0609 22:19:46] pause for 75s
+[0609 22:21:01] search nodes
+[0609 22:21:01] pause for 47s
+[0609 22:21:48] search nodes
+[0609 22:21:49] pause for 33s
+[0609 22:22:22] search nodes
+[0609 22:22:22] total node nums: 27
+[0609 22:22:22] add job success
+jobname: main_all_best_YaleB_shelter_10_percent_60_1pool, 
+pattern: /home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10,
+ 1  matlab
+[0609 22:22:22] pause for 53s
+[0609 22:23:15] search nodes
+[0609 22:23:15] pause for 51s
+[0609 22:24:06] search nodes
+[0609 22:24:07] pause for 102s
+[0609 22:25:49] search nodes
+[0609 22:25:49] pause for 97s
+[0609 22:27:26] search nodes
+[0609 22:27:26] pause for 67s
+[0609 22:28:33] search nodes
+[0609 22:28:33] pause for 57s
+[0609 22:29:30] search nodes
+[0609 22:29:31] pause for 92s

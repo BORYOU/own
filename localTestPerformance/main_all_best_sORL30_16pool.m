@@ -1,5 +1,5 @@
 clc; clear all
-load('../generateW/LFW_64.mat'); load('../generateW/p_5_sigma_3.873/LFW_64_p_5_sigma_3.873.mat');
+load('../generateW/LFW_64.mat'); load('../generateW/p_5_sigma_3.1623/LFW_64_p_5_sigma_3.1623.mat');
 
 
 [M,N] = size(A); % M*N 为矩阵A的维数
@@ -18,7 +18,7 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
     %randn('state',1);
     Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
 
-    [H, W, fvalH] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
+%     [H, W, fvalH] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
     
     [HG, fvalHG] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,L,gamma,tol,maxiter);
 
