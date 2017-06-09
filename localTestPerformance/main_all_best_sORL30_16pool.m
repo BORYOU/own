@@ -10,7 +10,7 @@ maxiter =200; tol = 1e-17; timelimit = 1000000;
 fold = 3; %决定测试个体数量：总个体数/fold 向下取整
 DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
 
-    k = 100;
+    k = 600;
     gamma = 1e-8;
     a = 9;
 
@@ -27,7 +27,7 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fold = 3;
-    NA = Accuracy(fold,A,Y,H);
+    NA = Accuracy(fold,A,Y,H,'');
     AccuracyN_ASCG=NA.acc;
     AccuracyN_ASCGvar=NA.var;
 

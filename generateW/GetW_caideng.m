@@ -35,6 +35,8 @@ function outfilename = GetW_caideng(database, nearP, sigma)
         data = 'NewR25';
     elseif strcmp(database,'L')
         data = 'LFW_64';
+    elseif strcmp(database,'l')
+        data = 'LFW_32';
     end
     
     if strcmp(data(1),'O')
@@ -43,9 +45,12 @@ function outfilename = GetW_caideng(database, nearP, sigma)
     elseif strcmp(data(1),'Y')
         len_row = 32;
         len_colunm = 32;
-    elseif strcmp(data(1),'L')
+    elseif strcmp(data,'LFW_64')
         len_row = 64;
         len_colunm = 64;
+    elseif strcmp(data,'LFW_32')
+        len_row = 32;
+        len_colunm = 32;
     end
     
     load([data, '.mat'])

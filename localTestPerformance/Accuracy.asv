@@ -1,4 +1,4 @@
-function [Accu] = Accuracy(fold,A,Y,H_final,s)
+function [Accu] = Accuracy(fold,A,Y,H_final)
 
 % 分类： SVM 分类器
 % fold :决定测试个体和训练个体数量的参数，其中测试个体数量为 总个体数/fold
@@ -12,7 +12,7 @@ TrLabel = Y'; %将类别下标转置
 % end
 
 % addpath('Liblinear\matlab');
-for SVM_num = 1:100  % 
+for SVM_num = 1:5  % 
     [AT,AR,YT,YR,testDI,trainDI] = Create10foldData(A',TrLabel,fold); %按Y与fold随机生成训练样本和测试样本的个体下标集合
     %length(testDI)
     %length(trainDI)
@@ -29,7 +29,7 @@ for SVM_num = 1:100  %
     H_all = H_final; %总体样本
     H_train = H_all(:,trainDI); %训练样本
 %     model2 = train(double(YR), sparse(H_train'), options);
-    model = train(double(YR), sparse(H_train'),'-q -s 5');%s
+    model = train(double(YR), sparse(H_train'),'-s 5 -q');%s
     H_test = H_all(:,testDI); %测试样本s
     [~,accu] = predict(YT, sparse(H_test'), model);
 %     [C,accu2] = predict(YT, sparse(H_test'), model2);
