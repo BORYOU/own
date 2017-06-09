@@ -48,7 +48,7 @@ for iter=1:maxiter,
     
     fval=0.5*(norm(V-W*H,'fro'))^2 + 0.5*trace(H*sparse(L)*H');
     ASCG.V_fval=[ASCG.V_fval;fval];
-    ASCG.T = [ASCG.T, cputime-init];
+    ASCG.T = [ASCG.T, cputime-initt];
     fvalcri = abs(ASCG.V_fval(iter)-ASCG.V_fval(iter+1))/ASCG.V_fval(iter);
     
 end
