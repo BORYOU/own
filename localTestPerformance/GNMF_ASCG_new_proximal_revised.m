@@ -50,7 +50,7 @@ for iter=1:maxiter,
     ASCG.V_fval=[ASCG.V_fval;fval];
     ASCG.T = [ASCG.T, cputime-initt];
     fvalcri = abs(ASCG.V_fval(iter)-ASCG.V_fval(iter+1))/ASCG.V_fval(iter);
-    
+    fprintf('iter: %d, iterW: %d, iterH: %d\n',iter,iterW,iterH);
 end
 
 
