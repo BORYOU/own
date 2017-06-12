@@ -1,5 +1,5 @@
 clc; clear all
-load('../generateW/LFW_64.mat'); load('../generateW/p_5_sigma_3.1623/LFW_64_p_5_sigma_3.1623.mat');
+load('LFW_64.mat'); load('../generateW/p_5_sigma_3.1623/LFW_64_p_5_sigma_3.1623.mat');
 
 
 [M,N] = size(A); % M*N 为矩阵A的维数
@@ -10,7 +10,7 @@ maxiter =200; tol = 1e-17; timelimit = 1000000;
 fold = 5; %决定测试个体数量：总个体数/fold 向下取整
 DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
 
-    k = 600;
+    k = 300; maxiter = 500;
     gamma = 1e-8;
     a = 9;
 

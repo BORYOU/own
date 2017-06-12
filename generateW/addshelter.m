@@ -8,12 +8,12 @@ function outfilename = addshelter(database, percent, shelter)
 
     if database == 'Y'
         data = 'YaleB_c';
-        %载入数据：A：原始数据矩阵，1024*2414；Y：分类下标，1*2414，一个人有越64张脸部图片,图片的尺寸为 32*32
+        %载入数据：A：原始数据矩阵，1024*2414；Y：分类下标，1*2414，一个人有越64张脸部图�?图片的尺寸为 32*32
         facem = 32;
         facen = 32;
     elseif database == 'O'
         data = 'Orl';
-        %载入数据：A：原始数据矩阵，10304*400；Y：分类下标，1*400，一个人有十张脸部图片,图片的尺寸为 112*92
+        %载入数据：A：原始数据矩阵，10304*400；Y：分类下标，1*400，一个人有十张脸部图�?图片的尺寸为 112*92
         facem = 112;
         facen = 92;
     end
@@ -29,7 +29,12 @@ function outfilename = addshelter(database, percent, shelter)
         personNum = lastInd - firstInd + 1;
         % calculate shelter coll number
         shelterNum = round((personNum * percent / 100))
-        addList = randperm(personNum, shelterNum) + (firstInd - 1);
+        try
+            addList = randperm(personNum, shelterNum) + (firstInd - 1);
+        catch
+            randlist = randperm(personNum);
+            addList = randlist(1:shelterNum) + (firstInd - 1);
+        end
         for coll = addList
             a = A(:,coll);
             face = reshape(a,facem,facen);

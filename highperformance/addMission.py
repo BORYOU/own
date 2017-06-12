@@ -92,6 +92,8 @@ def getNodeNum(jession):
         else:
             yield -1, -1
     logger.info('GetNodeList resp: {}'.format(res.content))
+    if 'ticket' in res.content:
+        raise ownExcept("need re-login")
     e = etree.HTML(res.content)
     nodes = e.xpath('/html/body/response/nodes//node')
     for node in nodes:
@@ -186,8 +188,8 @@ def start(jession, jobnamebase, pattern):
         time.sleep(sleeptime)
     
 def main():
-    jobnamebase = "main_all_best_YaleB_shelter_10_percent_60_{}poolbig"
-    pattern = "/home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10"
+    jobnamebase = "main_all_best_YaleB_shelter_10_percent_40_{}pool"
+    pattern = "/home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_40_sigma_sqrt10"
     _UserAgents = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:48.0) Gecko/20100101 Firefox/48.0"
         ]

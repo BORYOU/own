@@ -1,4 +1,4 @@
-function [H,siter] = nlssubprob_ASCG_proximal_simple(V,W,Hinit,tol,maxiter)
+function [H,siter] = nlssubprob_ASCG_proximal_simple(V,W,Hinit,tol,maxiter,tau)
 
 % H, grad: output solution and gradient
 % iter: #iterations used
@@ -11,7 +11,7 @@ alpha = 1; beta = 0.1;
 eta = 0.1; rho = 0.5;
 n_1 = 2; n_2 = 1;
 eps0 = 1; r = 2;
-tau = 1e-8;
+% tau = 1e-8;
 % t=cputime;
 
 [nr,nc] = size(Hinit);
