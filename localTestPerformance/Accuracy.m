@@ -1,4 +1,4 @@
-function [Accu] = Accuracy(fold,A,Y,H_final)
+function [Accu] = Accuracy(fold,A,Y,H_final,i)
 
 % 分类： SVM 分类器
 % fold :决定测试个体和训练个体数量的参数，其中测试个体数量为 总个体数/fold
@@ -29,7 +29,7 @@ for SVM_num = 1:5  %
     H_all = H_final; %总体样本
     H_train = H_all(:,trainDI); %训练样本
 %     model2 = train(double(YR), sparse(H_train'), options);
-    model = train(double(YR), sparse(H_train'),'-s 5 -q');%s
+    model = train(double(YR), sparse(H_train'),['-s ',num2str(i),' -q']);%s
     H_test = H_all(:,testDI); %测试样本s
     [~,accu] = predict(YT, sparse(H_test'), model);
 %     [C,accu2] = predict(YT, sparse(H_test'), model2);
