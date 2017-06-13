@@ -1,14 +1,16 @@
 clc; clear all
 dataall = {
-%     'Orl_shelter_40_percent_20';
-%     'Orl_shelter_40_percent_60'
+     %'Orl_shelter_40_percent_20';
+     %'Orl_shelter_40_percent_40';
+     %'Orl_shelter_40_percent_60';
+     %'Orl_shelter_40_percent_80';
 %     'Orl_shelter_40_40';
     %'Orl_shelter_50_50';
     %'Orl_shelter_20_percent_20';
-    %'YaleB_c';
+    'YaleB_c';
     'YaleB_c_shelter_10_10';
-    'YaleB_c_shelter_10_percent_20';
-    'YaleB_c_shelter_10_percent_60';
+    %'YaleB_c_shelter_10_percent_20';
+    %'YaleB_c_shelter_10_percent_60';
 };
 for dataindex = 1:length(dataall)
 data = dataall{dataindex};
@@ -31,9 +33,10 @@ randn('state',1);
 Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
 
 if data(1) == 'O'
-pall = 2:10; sigmaall = [sqrt(2),sqrt(10)];
+pall = 2:10; sigmaall = [sqrt(10)];%[sqrt(2),sqrt(10)];
 elseif data(1) == 'Y'
-pall = 2:10; sigmaall = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)];
+%pall = 2:10; sigmaall = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)];
+pall = 3:3:30; sigmaall = [sqrt(10)];
 end
 % sigmaall = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)];
 
