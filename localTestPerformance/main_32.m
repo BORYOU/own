@@ -10,12 +10,12 @@ maxiter =200; tol = 1e-17; timelimit = 1000000;
 fold = 5; %决定测试个体数量：总个体数/fold 向下取整
 DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
 
-    k = 300;
+    k = 300; matiter = 500;
     gamma = 1e-8;
     a = 9;
 
-    rng('default')
-    %randn('state',1);
+%     rng('default')
+    randn('state',1);
     Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
 
     [HN, WN, Ns] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
