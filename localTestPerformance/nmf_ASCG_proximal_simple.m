@@ -15,7 +15,8 @@ function [H, W, N, H200, W200] = nmf_ASCG_proximal_simple(V,Winit,Hinit,tol,maxi
 %
 % Written by Chao Zhang (chzhang2 AT bjtu.edu.cn)
 % global alpha beta eta rho n_1 n_2 eps0 r tau
-
+H200 = 0;
+W200= 0;
 W = Winit; H = Hinit; 
 N.V_fval=[]; 
 N.V_fval_W=[]; 
@@ -27,9 +28,9 @@ N.V_fval(1) = V_fval;
 gradW = W*(H*H') - V*H'; gradH = (W'*W)*H - W'*V;
 initgrad = norm([gradW; gradH'],'fro');
 tolW = max(1e-8,tol)*initgrad;
-tolH = tolW;
-tauW = 1e-6;
-tauH = 1e-10;
+tolH = tolW*1e-6;
+tauW = 1e-7;
+tauH = 1e-9;
 
 for iter=1:maxiter,
 
