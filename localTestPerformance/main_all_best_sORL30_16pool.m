@@ -18,7 +18,7 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %º∆À„L
     randn('state',1);
     Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
 
-%     [H, W, fvalH] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
+    [H, W, Nn, HN200,WN200] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
     
     [HG, WG, G] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,L,gamma,tol,maxiter);
 
