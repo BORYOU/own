@@ -27,7 +27,7 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %º∆À„L
     [HGd, WGd, Gd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
 
-    NA = Accuracy(fold,A,Y,H)
+    NA = Accuracy(fold,A,Y,HN)
     AccuracyN_ASCG=NA.acc;
     AccuracyN_ASCGvar=NA.var;
 

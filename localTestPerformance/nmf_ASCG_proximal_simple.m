@@ -46,7 +46,7 @@ for iter=1:maxiter,
     
     % ===================== update H ========================
     [H,iterH] = nlssubprob_ASCG_proximal_simple(V,W,H,tolH,200);
-    if iterH<=1, 
+    if iterH<=10, 
         tolH = 0.1 * tolH;
     end
 
