@@ -1,7 +1,7 @@
 clc; clear all
 load('Orl_shelter_40_percent_80.mat'); load('Orl_shelter_40_percent_80_p_5_sigma_3.1623.mat');
 
-parpool(16)
+parpool(15)
 
 [M,N] = size(A); % M*N Îª¾ØÕóAµÄÎ¬Êı
 W1 = W_hk_c; W2 = W_diff_c;

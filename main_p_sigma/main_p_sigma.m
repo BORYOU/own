@@ -7,8 +7,9 @@ dataall = {
 %     'Orl_shelter_40_40';
     %'Orl_shelter_50_50';
     %'Orl_shelter_20_percent_20';
-    'YaleB_c';
-    'YaleB_c_shelter_10_10';
+    'Orl';
+%     'YaleB_c';
+%     'YaleB_c_shelter_10_10';
     %'YaleB_c_shelter_10_percent_20';
     %'YaleB_c_shelter_10_percent_60';
 };
@@ -61,6 +62,9 @@ for i = 1:length(pall)
         Wfilename = [data,'_p_',num2str(p),'_sigma_',num2str(sigma),'.mat'];
         outFileName = fullfile(outDirName,[data,'_p_',num2str(p),'_sigma_',num2str(sigma),'_acc.mat']);
         if exist(outFileName)
+            load(outFileName ,'HGA','HGdA');
+            HGAall(i,j) = HGA.acc;
+            HGdAall(i,j) = HGdA.acc;
             continue
         end
         load(fullfile('..','generateW',dirName, Wfilename));

@@ -25,7 +25,7 @@ class ownExcept(Exception):
        
 global _UserAgent
 
-def login():
+def login(i):
     global _UserAgent
     headers = {
         "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -50,10 +50,11 @@ def login():
         "Referer": "https://hpc.bjtu.edu.cn/cas/login?service=http%3A%2F%2Fhpc.bjtu.edu.cn%3A8081%2Fstatic%2F",
         "Cookie": "JSESSIONID={}".format(jessionId)
     })
-
+    username = ['14121553','8163']
+    passwd = ['iv11SM&*','ej62YN^@']
     data = {
-        "username":"14121553",
-        "password":"iv11SM&*",
+        "username":username[i],
+        "password":passwd[i],
         "lt":"e1s1",
         "_eventId":"submit",
         "submit":u"登录"
@@ -67,6 +68,8 @@ def login():
     a.remove(jessionId)
     jession = a[0]
     return jession
+    
+
     
 def getNodeNum(jession):
     global _UserAgent
@@ -166,30 +169,36 @@ def submitJob(jession, jobname, pattern, nodeNum, nodeType):
     res = requests.post(url, headers=headers, data=dataEncode,verify=False)
     if res.status_code == 200:
         logger.info("add job success\njobname: {}, \npattern: {},\n {}  {}".format(jobname, pattern, nodeNum, nodeType))
+        return True
     else:
         wrongContent = res.content
         logger.info("add fail\n" + wrongContent)
+        return False
         
 def start(jession, jobnamebase, pattern):
 
-    jobTotalNodeNum = 0
-    while jobTotalNodeNum < 100:
+    MissionNum = 0
+    while MissionNum < 6:
         logger.info("search nodes")
         for freeNodeNum, nodeType in getNodeNum(jession):
             if not freeNodeNum: continue
             if freeNodeNum == -1: break
-            jobTotalNodeNum += freeNodeNum
-            logger.info('total node nums: {}'.format(jobTotalNodeNum))
+            if freeNodeNum < 6: continue
+            #jobTotalNodeNum += freeNodeNum
+            #logger.info('total node nums: {}'.format(jobTotalNodeNum))
             jobname = jobnamebase.format(freeNodeNum)
-            submitJob(jession, jobname, pattern, freeNodeNum, nodeType)
-        if freeNodeNum == -1: continue
+            if not submitJob(jession, jobname, pattern, freeNodeNum, nodeType):
+                return False
+        if freeNodeNum == -1: break
         sleeptime = random.randint(30,120)
         logger.info('pause for {}s'.format(sleeptime))
         time.sleep(sleeptime)
+    return False
     
 def main():
-    jobnamebase = "main_all_best_YaleB_shelter_10_percent_40_{}pool"
-    pattern = "/home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_40_sigma_sqrt10"
+    jobnamebase = "main_all_best_sORL40_percent_80_{}pool"
+    #pattern = "/home/14121553/workspace/GNMFO17_5_29/Orl_shelter_40_percent_80_sigma_sqrt10"
+    pattern = "/home/8163/workspace/GNMFO17_5_29/Orl_shelter_40_percent_80_sigma_sqrt10"
     _UserAgents = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:48.0) Gecko/20100101 Firefox/48.0"
         ]
@@ -197,14 +206,19 @@ def main():
     _UserAgent = random.choice(_UserAgents)
     
     logger.info('Login')
-    jession = login()
-    while True:
+    i = 0
+    while i<1:
+        jession = login(i)
         try:
-            start(jession, jobnamebase, pattern)
+            if not start(jession, jobnamebase, pattern):
+                i += 1
         except ownExcept, e:
             logging.info('re login')
+            time.sleep(30)
         except Exception, e:
             logging.error(str(e))
+            break
+    logging.info("mission max")
             
 if __name__ == '__main__':
     main()
