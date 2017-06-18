@@ -4,13 +4,13 @@ dataall = {
      %'Orl_shelter_40_percent_40';
      %'Orl_shelter_40_percent_60';
      %'Orl_shelter_40_percent_80';
-     %'Orl';
-     'Orl_shelter_30_30';
-    %'Orl_shelter_40_40';
-    %'Orl_shelter_50_50';
+     'Orl';
+%      'Orl_shelter_30_30';
+    'Orl_shelter_40_40';
+    'Orl_shelter_50_50';
     %'Orl_shelter_20_percent_20';
-    %'YaleB_c';
-    %'YaleB_c_shelter_10_10';
+    'YaleB_c';
+    'YaleB_c_shelter_10_10';
     %'YaleB_c_shelter_10_percent_20';
     %'YaleB_c_shelter_10_percent_60';
 };
@@ -63,7 +63,7 @@ for i = 1:length(lambdaall)
         
         %HG = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,L,lambda,tol,maxiter);
     
-        [HGd, WGd. Gd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,lambda,tol,maxiter);
+        [HGd, WGd, Gd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,lambda,tol,maxiter);
     
         %HGA = Accuracy(3,A,Y,HG);
         %AccuracyG_ASCG=HGA.acc;

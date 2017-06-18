@@ -26,9 +26,9 @@ tolH = tolW;
 
 firstNorm = (norm(V-W*H,'fro'))^2;
 traceNorm = trace(H*sparse(L)*H')/lambda;
-G.firstNorm=[G.firstNorm, firstNorm];
-G.traceNorm=[G.traceNorm, traceNorm];
-ASCG.V_fval = 0.5*(norm(V-W*H,'fro'))^2 + 0.5*trace(H*sparse(L)*H');
+G.firstNorm=firstNorm;
+G.traceNorm=traceNorm;
+G.V_fval = 0.5*(norm(V-W*H,'fro'))^2 + 0.5*trace(H*sparse(L)*H');
 
 for iter=1:maxiter,
     % stopping condition  
