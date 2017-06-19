@@ -73,8 +73,9 @@ for i = 1:length(lambdaall)
         save(outFileName ,'HGd','WGd','Gd','HGdA');
         firstNormall(i) = Gd.firstNorm(end);
         traceNormall(i) = Gd.traceNorm(end);
-    end
+end
+    save(fullfile(outDirName,[data,'all.mat']),'firstNormall','traceNormall');
 end
 
-save(fullfile(outDirName,[data,'all.mat']),'firstNormall','traceNormall');
+% save(fullfile(outDirName,[data,'all.mat']),'firstNormall','traceNormall');
 toc
