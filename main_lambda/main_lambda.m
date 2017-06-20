@@ -5,9 +5,9 @@ dataall = {
      %'Orl_shelter_40_percent_60';
      %'Orl_shelter_40_percent_80';
      'Orl';
-%      'Orl_shelter_30_30';
-    'Orl_shelter_40_40';
-    'Orl_shelter_50_50';
+     'Orl_shelter_30_30';
+     'Orl_shelter_40_40';
+     'Orl_shelter_50_50';
     %'Orl_shelter_20_percent_20';
     'YaleB_c';
     'YaleB_c_shelter_10_10';
@@ -37,7 +37,7 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1;
 W = W1 + a*W2;
 DCol = full(sum(W,2)); D = spdiags(DCol,0,N,N); La = D - W; 
 
-lambdaall = [1e-14,1e-12,1e-10,1e-8,1e-6,1e-4,1e-2,1,10];
+lambdaall = [1e-14,1e-12,1e-10,1e-9,1e-8,1e-7,1e-6,1e-4,1e-2,1,10];
 
 firstNormall = zeros(length(lambdaall));
 traceNormall = zeros(length(lambdaall));
