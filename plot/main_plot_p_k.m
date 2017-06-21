@@ -1,59 +1,111 @@
-close all
-clear
-%%
-% data: sOrl, Accuracy for gnmfd & gnmd vs gamma fcri 1e-4
-load('sORLgammak80191e4.mat');
-% b = load('sORLgnmfgammak80191e4.mat');
-gammaall = [1e-9, 2e-9, 3e-9, 4e-9, 5e-9, 6e-9, 7e-9, 8e-9, 9e-9,...
-    1e-8, 2e-8, 3e-8, 4e-8, 5e-8, 6e-8, 7e-8, 8e-8, 9e-8,1e-7];
+clear all; clc;
+psigmaPath = '../main_p_sigma';
 
-figure;
-hold on;
+outfiledir = 'fig';
+outfilebasestr = '%s_pvary.eps';
 
-% gnmfgamma = line(1:19,b.AccuracyG_ASCG);
-gnmfdgamma = line(1:19, AccuracyGd_ASCG);
+dataall = {
+%     'Orl';
+%     'Orl_shelter_30_30';
+%     'Orl_shelter_40_40';
+%     'Orl_shelter_50_50';
+    'YaleB_c';
+    'YaleB_c_shelter_10_10';
+    };
 
-% set(gnmfgamma                     , ...
-%   'Color'           , 'r'    , ...
-%   'LineWidth'       , 1.5    , ...
-%   'Marker'          , 'o'    , ...
-%   'MarkerSize'      , 6      , ...
-%   'MarkerEdgeColor' , 'r'    , ...
-%   'MarkerFaceColor' , 'r'    );
+pall = 2:10;
 
-set(gnmfdgamma               , ...
-  'Color'           , 'b'    , ...
-  'LineWidth'       , 1.5    , ...
-  'Marker'          , '^'    , ...
-  'MarkerSize'      , 5      , ...
-  'MarkerEdgeColor' , 'b'    , ...
-  'MarkerFaceColor' , 'b'    );
-
-ylim([55,95])
-
-set(gca                    ,...
-    'xtick',1:20         ,...
-    'xticklabel',[]);           %{'10^{-9}','10^{-8}','10^{-7}'});
-
-text([1,10,19],repmat(53.5,1,3), ... % plot xlabel 
-    {'10^{-9}' '10^{-8}' '10^{-7}'}, ...
-    'hor','center')
-
-hXLabel = xlabel('\gamma '                  );
-hYLabel = ylabel('Accuracy(%)'              );
-
-hLegend = legend(           ...
-   gnmfdgamma           , ...
-  'GNMFO'                 , ...
-  'location', 'SouthEast' );
-%   [gnmfgamma, gnmfdgamma]           , ...
-%   'GNMF-ASCG'                  , ...
-%   'GNMFO-ASCG'                 , ...
-%   'location', 'SouthWest' );
-
-xlabh = get(gca,'XLabel');   % change xlabel position
-set(xlabh,'Position',get(xlabh,'Position') - [0 2 0])
-
-
-set(gcf, 'PaperPositionMode', 'auto');
-print -depsc2 sorlgamma.eps
+for dataindex = 1:length(dataall)
+    data = dataall{dataindex};
+    fprintf('%s\n',data);
+    
+    switch data
+        case 'Orl'
+            sigmaall = [sqrt(10)];
+            coll = 1;
+            ymin = 70;  % 坐标轴
+            ymax = 100;  % 坐标轴
+            xmin = 2;
+            xmax = 7;
+        case 'Orl_shelter_30_30'
+            sigmaall = [sqrt(2),sqrt(5),sqrt(10),sqrt(15),sqrt(20)];
+            coll = 3;
+            ymin = 60;  % 坐标轴
+            ymax = 90;  % 坐标轴
+            xmin = 2;
+            xmax = 7;
+        case 'Orl_shelter_40_40'
+            sigmaall = [sqrt(2),sqrt(10)];
+            coll = 2;
+            ymin = 60;  % 坐标轴
+            ymax = 85;  % 坐标轴
+            xmin = 2;
+            xmax = 7;
+        case 'Orl_shelter_50_50'
+            sigmaall = [sqrt(2),sqrt(10)];
+            coll = 2;
+            ymin = 55;  % 坐标轴
+            ymax = 80;  % 坐标轴
+            xmin = 2;
+            xmax = 7;
+        case 'YaleB_c'
+            pall = 3:3:30;
+            sigmaall = [sqrt(10)];
+            coll = 1;
+%             coll = 3;
+            ymin = 70;  % 坐标轴
+            ymax = 100;  % 坐标轴
+        case 'YaleB_c_shelter_10_10'
+            pall = 3:3:30;
+            sigmaall = [sqrt(10)];
+            coll = 1;
+            xmin = pall(start);
+            xmax = pall(start);
+%             coll = 3;
+            ymin = 60;  % 坐标轴
+            ymax = 90;  % 坐标轴
+    end
+    
+    fileDirName = fullfile(psigmaPath, [data, '_p_',num2str(pall(1)),'_',num2str(pall(end)),'_sigma_',num2str(sigmaall(1)),'_',num2str(sigmaall(end))]);
+    load(fullfile(fileDirName,[data,'all.mat']),'HGAall','HGdAall');
+    
+%     close all;
+    figure;
+    hold on
+    gnmfp = plot(pall, HGAall(:,coll)); % 曲线上标出数据点
+    gnmfdp = plot(pall, HGdAall(:,coll));
+    
+    set(gnmfp                     , ...
+      'Color'           , 'r'    , ...
+      'LineWidth'       , 1.5    , ...
+      'Marker'          , 'o'    , ...
+      'MarkerSize'      , 6      , ...
+      'MarkerEdgeColor' , 'r'    , ...
+      'MarkerFaceColor' , 'r'    );
+    
+    set(gnmfdp               , ...
+        'Color'           , 'b'    , ...
+        'LineWidth'       , 1.5    , ...
+        'Marker'          , '^'    , ...
+        'MarkerSize'      , 5      , ...
+        'MarkerEdgeColor' , 'b'    , ...
+        'MarkerFaceColor' , 'b'    );
+    
+    xlabel('$p$','fontsize',10,'interpreter','latex');
+    ylabel('Accuracy(%)','fontsize',10);
+%     ylim([ymin,ymax]);
+    axis([xmin,xmax,ymin,ymax])
+    
+    hLegend = legend(           ...
+        [gnmfp, gnmfdp]      , ...
+        'GNMF'                  , ...
+        'GNMFO'                 , ...
+        'location', 'SouthEast' );
+    
+    break
+    outfilename = sprintf(outfilebasestr, data);
+    fprintf('outfile: %s\n',fullfile(outfiledir,outfilename));
+    set(gcf, 'PaperPositionMode', 'auto');
+%     print(gcf, '-depsc2', fullfile(outfiledir,outfilename));
+    
+end

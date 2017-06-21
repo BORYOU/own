@@ -19,9 +19,6 @@ AccuracyGd_ASCG_aver(i) = mean(AccuracyGd_ASCG);
 
 for percent = 20:20:80
     i = i + 1;
-    if percent == 80
-        break
-    end
     filename = sprintf(datafilebasestr, percent);
     fprintf('file: %s\n',filename);
     load(fullfile(datadir,filename),'AccuracyN_ASCG','AccuracyG_ASCG','AccuracyGd_ASCG');
@@ -37,9 +34,9 @@ AccuracyGd_ASCG_aver(i) = mean(AccuracyGd_ASCG);
 
 figure;
 hold on;
-nmf = line(0:20:100,AccuracyN_ASCG_aver);
-gnmf = line(0:20:100,AccuracyG_ASCG_aver);
-gnmfd = line(0:20:100,AccuracyGd_ASCG_aver);
+nmf = line(0:0.2:1,AccuracyN_ASCG_aver);
+gnmf = line(0:0.2:1,AccuracyG_ASCG_aver);
+gnmfd = line(0:0.2:1,AccuracyGd_ASCG_aver);
 ylim([60,100]);
 set(nmf                     , ...
     'Color'           , 'r'    , ...
@@ -64,7 +61,7 @@ set(gnmfd                    , ...
     'MarkerEdgeColor' , 'b'    , ...
     'MarkerFaceColor' , 'b'    );
 
-hXLabel = xlabel('Percent of shelter(%)');
+hXLabel = xlabel('Percentage of shelter');
 hYLabel = ylabel('Accuracy(%)');
 
 hLegend = legend(           ...

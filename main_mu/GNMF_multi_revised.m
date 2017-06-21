@@ -1,4 +1,4 @@
-function [W,H,Wnorm,Hnorm] = GNMF_multi_revised(V,W,H,S,lambda,maxiter)
+function [W,H] = GNMF_multi_revised(V,W,H,S,lambda,maxiter)
 % Solving GNMF using multi 
 % V: m*n 
 % W: m*k
@@ -23,7 +23,7 @@ for iter=1:maxiter,
             break
         end
     end
-  
+    
   % ===================== update H' ========================
     VtW = V'*W; % mnk or pk (p<<mn)
     WtW = W'*W; % mk^2
@@ -53,9 +53,9 @@ for iter=1:maxiter,
     
 end
 
-norms = max(1e-15,sqrt(sum(W.^2,1)))';
-Wnorm = W*spdiags(norms.^-1,0,K,K);
-HnormT = H'*spdiags(norms,0,K,K);
-Hnorm = HnormT';
+%norms = max(1e-15,sqrt(sum(W.^2,1)))';
+%Wnorm = W*spdiags(norms.^-1,0,K,K);
+%HnormT = H'*spdiags(norms,0,K,K);
+%Hnorm = HnormT';
 
 fprintf('iter: %d\n', iter);
