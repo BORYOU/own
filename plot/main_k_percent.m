@@ -25,8 +25,8 @@ for percent = 20:20:80
             ymin=70;
             ymax=100;
         case 80
-            ymin=70;
-            ymax=100;
+            ymin=60;
+            ymax=95;
     end
 %     close all;
     figure;

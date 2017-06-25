@@ -196,8 +196,8 @@ def start(jession, jobnamebase, pattern):
     return False
     
 def main():
-    jobnamebase = "main_all_best_sORL40_percent_80_{}pool"
-    pattern = "/home/14121553/workspace/GNMFO17_5_29/Orl_shelter_40_percent_80_sigma_sqrt10"
+    jobnamebase = "main_all_best_YaleB_shelter_10_percent_80_{}pool"
+    pattern = "/home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_80_sigma_sqrt10"
     #pattern = "/home/8163/workspace/GNMFO17_5_29/Orl_shelter_40_percent_80_sigma_sqrt10"
     _UserAgents = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:48.0) Gecko/20100101 Firefox/48.0"
@@ -208,10 +208,10 @@ def main():
     logger.info('Login')
     jession = login(1)
     jobname = jobnamebase.format(16)
-    for i in range(5):
-        submitJob(jession, jobname, pattern, 16, 'matlab')
+    #for i in range(5):
+    #    submitJob(jession, jobname, pattern, 16, 'matlab')
     jobname = jobnamebase.format(32)
-    for i in range(5):
+    for i in range(3):
         submitJob(jession, jobname, pattern, 32, 'fat')
             
 if __name__ == '__main__':

@@ -1,0 +1,13 @@
+参数说明
+
+p vs Accuracy使用参数： 
+ORL类数据：
+k = 100; gamma = 1e-8; a = 9;
+YaleB类数据：
+k = 130; gamma = 6e-8; a = 7;
+
+
+gamma 曲线：
+
+k = 100; a = 9;
+

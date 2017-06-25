@@ -26,8 +26,8 @@ maxiter =200; tol = 1e-17; timelimit = 1000000;
 fold = 3; 
 
 [M,N] = size(A); % M*N Îª¾ØÕóAµÄÎ¬Êı
-% rng('default')
-randn('state',1);
+rng('default')
+%randn('state',1);
 Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
 Wfilename = [data,'_p_5_sigma_3.1623.mat'];
 dirName = ['p_5_sigma_3.1623'];

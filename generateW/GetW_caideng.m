@@ -37,6 +37,8 @@ function outfilename = GetW_caideng(database, nearP, sigma)
         data = 'YaleB_c_shelter_10_10';
     elseif strcmp(database,'Y5')
         data = 'YaleB_c_shelter_10_percent_40';
+    elseif strcmp(database,'Y6')
+        data = 'YaleB_c_shelter_10_percent_80';
     elseif strcmp(database,'N1')
         data = 'NewR25';
     elseif strcmp(database,'L')
