@@ -183,11 +183,7 @@ def start(jession, jobnamebase, pattern):
         for freeNodeNum, nodeType in getNodeNum(jession):
             if not freeNodeNum: continue
             if freeNodeNum == -1: break
-<<<<<<< HEAD
-            if freeNodeNum < 8: continue
-=======
             if freeNodeNum < 1: continue
->>>>>>> 45a2274b223ce63fae05ebcdd80b15d43de3e26a
             #jobTotalNodeNum += freeNodeNum
             #logger.info('total node nums: {}'.format(jobTotalNodeNum))
             jobname = jobnamebase.format(freeNodeNum)
@@ -200,8 +196,8 @@ def start(jession, jobnamebase, pattern):
     return False
     
 def main():
-    jobnamebase = "main_all_best_YaleB_shelter_10_percent_60_{}poolbig"
-    pattern = "/home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_60_sigma_sqrt10"
+    jobnamebase = "main_all_best_YaleB_shelter_10_percent_80_{}pool"
+    pattern = "/home/14121553/workspace/GNMFO17_5_29/YaleB_shelter_10_percent_80_sigma_sqrt10"
     #pattern = "/home/8163/workspace/GNMFO17_5_29/Orl_shelter_40_percent_80_sigma_sqrt10"
     _UserAgents = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:48.0) Gecko/20100101 Firefox/48.0"
