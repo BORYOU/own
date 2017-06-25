@@ -1,5 +1,5 @@
 clc; clear all
-load('YaleB_c_shelter_10_percent_20.mat'); load('YaleB_c_shelter_10_percent_20_p_5_sigma_3.1623.mat');
+load('YaleB_c_shelter_10_percent_60.mat'); load('YaleB_c_shelter_10_percent_60_p_5_sigma_3.1623.mat');
 
 parpool(16)
 

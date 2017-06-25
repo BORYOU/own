@@ -183,7 +183,7 @@ def start(jession, jobnamebase, pattern):
         for freeNodeNum, nodeType in getNodeNum(jession):
             if not freeNodeNum: continue
             if freeNodeNum == -1: break
-            if freeNodeNum < 4: continue
+            if freeNodeNum < 8: continue
             #jobTotalNodeNum += freeNodeNum
             #logger.info('total node nums: {}'.format(jobTotalNodeNum))
             jobname = jobnamebase.format(freeNodeNum)
