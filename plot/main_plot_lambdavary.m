@@ -96,17 +96,17 @@ for dataindex = 1:length(dataall)
 %     L = plot(xi,values,'-k');  % 使用差值点绘制曲线
     hold on
     P = plot(firstNormall(:,1), traceNormall(:,1), '-ko'); % 曲线上标出数据点
-    xlabel('$\|X-UV\|^2$','fontsize',10,'interpreter','latex');
-    ylabel('$\rm{tr}(H(L+\alpha L_D H^T)$','fontsize',10,'interpreter','latex');
+    xlabel('$\|X-UV\|_F^2$','fontsize',10,'interpreter','latex');
+    ylabel('$\rm{tr}(V(L+\alpha L_D) V^T)$','fontsize',10,'interpreter','latex');
     axis([xmin,xmax,ymin,ymax]);
     set(P,'LineWidth',1.5); % MarkerFaceColor, MarketEdgeColor
     set(P,'MarkerSize',7);
     for i = textmin:textmax
         text(firstNormall(i,1) + textx(i), traceNormall(i,1) + texty(i), lambdaallStr{i},'interpreter','latex');
     end
-    set(gca,'Xscale','log')
-    set(gca,'Yscale','log')
-    break
+%     set(gca,'Xscale','log')
+%     set(gca,'Yscale','log')
+%     break
     outfilename = sprintf(outfilebasestr, data);
     fprintf('outfile: %s\n',fullfile(outfiledir,outfilename));
     set(gcf, 'PaperPositionMode', 'auto');
