@@ -5,12 +5,12 @@ clear all
 %%% 保存数据�?
 
 dataall = {
-    'Orl';
+%     'Orl';
     'Orl_shelter_30_30';
-    'Orl_shelter_40_40';
-    'Orl_shelter_50_50';
-    'YaleB_c';
-    'YaleB_c_shelter_10_10';
+%     'Orl_shelter_40_40';
+%     'Orl_shelter_50_50';
+%     'YaleB_c';
+%     'YaleB_c_shelter_10_10';
     };
 % data = dataall{1};
 for dataindex = 1:length(dataall)
