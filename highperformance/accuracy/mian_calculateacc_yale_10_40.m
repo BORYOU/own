@@ -1,15 +1,16 @@
 % need Accuracy.m rd.m
-clear all; clc;
 % for highperformance result on 11_5 
+
+clear all; clc;
 
 % database = 'Orl.mat';                basestr = 'ORLallbest';
 % database = 'Orl_shelter_30_30.mat';  basestr = 'sORL30allbest';
 % database = 'Orl_shelter_40_40.mat';  basestr = 'sORL40allbest';
 % database = 'Orl_shelter_50_50.mat';  basestr = 'sORL50allbest';
 % database = 'YaleB_c.mat'          ;  basestr = 'YaleBallbest' ;
-database = '../highperformanceData/YaleB_shelter_10_percent_60_sigma_sqrt10/YaleB_c_shelter_10_percent_60.mat'  ;  
-basestr = '../highperformanceData/YaleB_shelter_10_percent_60_sigma_sqrt10/YaleB_shelter_10_percent_20allbest' ;
-basestr2 = 'YaleB_shelter_10_percent_60allbest';
+database = '../highperformanceData/YaleB_shelter_10_percent_40_sigma_sqrt10/YaleB_c_shelter_10_percent_40.mat'  ;  
+basestr = '../highperformanceData/YaleB_shelter_10_percent_40_sigma_sqrt10/YaleB_shelter_10_percent_40allbest' ;
+basestr2 = 'YaleB_shelter_10_percent_40allbest';
 load(database);
 %{
 input variables: 

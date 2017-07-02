@@ -1,3 +1,4 @@
+clear all; clc;
 % need Accuracy.m rd.m
 % for highperformance result on 11_5 
 
@@ -8,7 +9,7 @@
 % database = 'YaleB_c.mat'          ;  basestr = 'YaleBallbest' ;
 database = '../highperformanceData/YaleB_shelter_10_percent_20_sigma_sqrt10/YaleB_c_shelter_10_percent_20.mat'  ;  
 basestr = '../highperformanceData/YaleB_shelter_10_percent_20_sigma_sqrt10/YaleB_shelter_10_percent_20allbest' ;
-basestr2 = 'YaleB_shelter_10_percent_20allbes';
+basestr2 = 'YaleB_shelter_10_percent_20allbest';
 load(database);
 %{
 input variables: 
@@ -27,7 +28,7 @@ default parameters:
 knum = 13;  %%%% Input  number of input k
 
 fold = 3;
-allnumlist = [1:1000,1101:1200,1301:1400,1501:1600];
+allnumlist = [1:1000,2701:2800,4701:4800,6701:6800];
 %allnumlist = [1101:1200,1301:1400,1501:1600]; for big three k, knum set to 3
 for index = 1:knum*100,
     index
