@@ -15,7 +15,7 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %º∆À„L
 % i1j1h1,i1j1h2,...,i1j1h10,i1j19h1,...,i1j19h10;i2j1h1,...i2j19h10,...,
 % i13j19h10
 allnumlist = [1:1000,2701:2800,4701:4800,6701:6800];
-parfor index = 701:1300,
+parfor index = 1:1300,
 %for index = 1:1000,
     allnum = allnumlist(index);
     if exist(['YaleB_shelter_10_percent_80allbest',num2str(allnum),'.mat'])

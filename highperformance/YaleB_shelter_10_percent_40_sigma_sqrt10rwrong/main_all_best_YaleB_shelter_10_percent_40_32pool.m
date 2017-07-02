@@ -1,5 +1,5 @@
 clc; clear all
-load('YaleB_c_shelter_10_percent_80.mat'); load('YaleB_c_shelter_10_percent_80_p_5_sigma_3.1623.mat');
+load('YaleB_c_shelter_10_percent_40.mat'); load('YaleB_c_shelter_10_percent_40_p_5_sigma_3.1623.mat');
 
 parpool(16)
 
@@ -14,11 +14,11 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %º∆À„L
 % k: 50 - 180;
 % i1j1h1,i1j1h2,...,i1j1h10,i1j19h1,...,i1j19h10;i2j1h1,...i2j19h10,...,
 % i13j19h10
-allnumlist = [1:1000,2701:2800,4701:4800,6701:6800];
-parfor index = 701:1300,
+allnumlist = [1:1000];  %,1101:1200,1301:1400,1501:1600];
+parfor index = 1:1000,
 %for index = 1:1000,
     allnum = allnumlist(index);
-    if exist(['YaleB_shelter_10_percent_80allbest',num2str(allnum),'.mat'])
+    if exist(['YaleB_shelter_10_percent_40allbest',num2str(allnum),'.mat'])
         continue
     end
     gammaall = [1e-8, 2e-8, 3e-8, 4e-8, 5e-8, 6e-8, 7e-8, 8e-8, 9e-8,1e-7];
@@ -58,7 +58,7 @@ parfor index = 701:1300,
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fval = [fvalH,fvalHG,fvalHGd];
-	savepar(['YaleB_shelter_10_percent_80allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
+	savepar(['YaleB_shelter_10_percent_40allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
 	
 end
 

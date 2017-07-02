@@ -1,0 +1,9 @@
+YaleB_shelter_10_percent_20allbestfinal1to13rwrong.mat
+到
+YaleB_shelter_10_percent_80allbestfinal1to13rwrong.mat
+
+r跑的是50-140，320，520，720，
+所以取'AccuracyN_ASCG','AccuracyG_ASCG','AccuracyGd_ASCG'
+的(4:10)对应了r 80-140
+
+需再跑r 150-170，350,550,对应allnum 701:1300
