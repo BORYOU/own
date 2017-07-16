@@ -14,8 +14,8 @@ DCol = full(sum(W1,2)); D = spdiags(DCol,0,N,N); L = D - W1; %计算L
 % k: 50 - 180;
 % i1j1h1,i1j1h2,...,i1j1h10,i1j19h1,...,i1j19h10;i2j1h1,...i2j19h10,...,
 % i13j19h10
-allnumlist = [1:1000,2701:2800,4701:4800,6701:6800];
-parfor index = 701:1300,
+allnumlist = [1:1000,2701:2800,4701:4800];
+parfor index = 701:1200,
 %for index = 1:1000,
     allnum = allnumlist(index);
     if exist(['YaleB_shelter_10_percent_40allbest',num2str(allnum),'.mat'])
@@ -25,7 +25,7 @@ parfor index = 701:1300,
     all = [0.1,0.3,0.5,0.7,0.9,3,5,7,9,11];
     
     ii = floor((allnum-1)/100)+1;
-    k = ii*10+40;
+    k = ii*10+70;
     subnum = rem(allnum,100);
     if subnum==0
         subnum=100;
@@ -38,13 +38,13 @@ parfor index = 701:1300,
     end
     a = all(hh);
 
-     rng('default')
+    rng('default')
 %randn('state',1);
     Winit = abs(randn(M,k)); Hinit = abs(randn(k,N));
     HG = 0; H = 0;
     fvalH=0;
-	fvalHG=0;
-	fvalHGd=0;
+    fvalHG=0;
+    fvalHGd=0;
     if rem(allnum,100) == 1,  % 1,101,...1201
         [H, fvalH] = nmf_ASCG_proximal_simple(A,Winit,Hinit,tol,maxiter);
     end
@@ -58,8 +58,7 @@ parfor index = 701:1300,
     [HGd, fvalHGd] = GNMF_ASCG_new_proximal_revised(A,Winit,Hinit,La,gamma,tol,maxiter);
     
     fval = [fvalH,fvalHG,fvalHGd];
-	savepar(['YaleB_shelter_10_percent_40allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
-	
+    savepar(['YaleB_shelter_10_percent_40allbest',num2str(allnum),'.mat'],H,HG,HGd,fval);
 end
 
 %finalresult()
