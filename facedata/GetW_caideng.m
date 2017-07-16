@@ -1,7 +1,7 @@
 clc
 clear all
 
-% load('YaleB_c.mat','A','Y');
+load('YaleB_c.mat','A','Y');
 %  load('Orl.mat'); %载入数据：A：原始数据矩阵，10304*400；Y：分类下标，400*1，一个人有十张脸部图片,图片的尺寸为 112*92
 
 % [M,N] = size(A); % M*N 为矩阵A的维数
@@ -40,7 +40,7 @@ clear all
 % load('Orl_shelter_40_40.mat','A','Y');
 % load('Orl_shelter_50_50.mat','A','Y');
 % load('YaleB.mat','A','Y');
-load('YaleB_c.mat','A','Y');
+% load('YaleB_c.mat','A','Y');
 % load('YaleB_c_shelter_10_10.mat','A','Y');
 %load('Orlinit','A','Y');
 %  load('Orlinit_shelter','A','Y');

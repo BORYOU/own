@@ -47,6 +47,7 @@ for dataindex = 1:length(dataall)
     options.WeightMode = 'HeatKernel';
     options.t = sqrt(10);
     W_difftv_c = full(constructW(DTV',options));
-    load(['../generateW/p_5_sigma_3.1623/',data,'_p_5_sigma_3.1623.mat'],'W_hk_c');
-    save(outfileName,'DTV','W_hk_c','W_difftv_c')
+%     load(['../generateW/p_5_sigma_3.1623/',data,'_p_5_sigma_3.1623.mat'],'W_hk_c');
+%     save(outfileName,'DTV','W_hk_c','W_difftv_c')
+    save(outfileName,'DTV','W_difftv_c')
 end
